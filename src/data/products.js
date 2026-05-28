@@ -5,7 +5,8 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Em uma sociedade cruel, Katniss precisa lutar pela própria vida em um jogo mortal.",
     "preco": 75.90,
-    "capa": "public/imagem/capa-jogos_vorazes.jpg"
+    "capa": "public/imagem/capa-jogos_vorazes.jpg",
+    "categoria": "Distopia"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@ const produtos = [
     "autor": "Victoria Aveyard ",
     "resumo": " Em um reino dividido pelo sangue, uma garota comum descobre um poder capaz de mudar tudo.",
     "preco": 54.99,
-    "capa": "public/imagem/a-rainha_vermelha.jpg"
+    "capa": "public/imagem/a-rainha_vermelha.jpg",
+    "categoria": "Fantasia"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@ const produtos = [
     "autor": "Rick Riordan",
     "resumo": "Um jovem semideus descobre seu destino em uma missão cheia de perigos mitológicos",
     "preco": 43.98,
-    "capa": "public/imagem/ladrao-de-raios.jpg"
+    "capa": "public/imagem/ladrao-de-raios.jpg",
+    "categoria": "Aventura"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@ const produtos = [
     "autor": "Holly Black",
     "resumo": "Em meio às intrigas do reino das fadas, Jude luta por poder e sobrevivência",
     "preco": 55.95,
-    "capa": "public/imagem/principe-cruel.jpg"
+    "capa": "public/imagem/principe-cruel.jpg",
+    "categoria": "Romance"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@ const produtos = [
     "autor": "Rick Riordan",
     "resumo": "Percy embarca em uma aventura épica para salvar o Acampamento Meio-Sangue.",
     "preco": 40.99,
-    "capa": "public/imagem/o-mar-de-monstros.jpg"
+    "capa": "public/imagem/o-mar-de-monstros.jpg",
+    "categoria": "Aventura"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": " Katniss volta à arena em uma disputa ainda mais perigosa e cheia de revolta.",
     "preco": 20.99,
-    "capa": "public/imagem/em _chamas.jpg"
+    "capa": "public/imagem/em _chamas.jpg",
+    "categoria": "Distopia"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@ const produtos = [
     "autor": "Matt Haig",
     "resumo": "Entre vidas alternativas e escolhas do passado, Nora descobre o verdadeiro valor de viver",
     "preco": 70.54,
-    "capa": "public/imagem/biblioteca_da_meia-noite.jpg"
+    "capa": "public/imagem/biblioteca_da_meia-noite.jpg",
+    "categoria": "Fantasia"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@ const produtos = [
     "autor": "Raphael Monte",
     "resumo": "Sete histórias sombrias revelam os pecados escondidos em um misterioso vilarejo.",
     "preco": 80.99,
-    "capa": "public/imagem/o-vilarejo.jpg"
+    "capa": "public/imagem/o-vilarejo.jpg",
+    "categoria": "Suspense/Terror"
   },
     {
     "id": 9,
@@ -69,7 +77,8 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Katniss lidera a revolução final contra o regime opressor de Panem.",
     "preco": 21.90,
-    "capa": "public/imagem/esperanca.png"
+    "capa": "public/imagem/esperanca.png",
+    "categoria": "Distopia"
   },
     {
     "id": 10,
@@ -77,7 +86,8 @@ const produtos = [
     "autor": "Karl Max e Friedaich Engels",
     "resumo": "Obra política que defende a luta de classes e a união dos trabalhadores contra o capitalismo.",
     "preco": 0.00,
-    "capa": "public/imagem/manifesto.png"
+    "capa": "public/imagem/manifesto.png",
+    "categoria": "História"
   },
     {
     "id": 11,
@@ -85,7 +95,8 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "O jovem Coriolanus Snow tenta conquistar poder ao orientar uma tributo nos primeiros Jogos Vorazes.",
     "preco": 65.90,
-    "capa": "public/imagem/cantiga.png"
+    "capa": "public/imagem/cantiga.png",
+    "categoria": "Distopia"
   },
     {
     "id": 12,
@@ -93,7 +104,8 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Durante uma edição especial dos Jogos Vorazes, jovens precisam lutar pela sobrevivência em meio à opressão da Capital.",
     "preco": 70.90,
-    "capa": "public/imagem/amanhecer.png"
+    "capa": "public/imagem/amanhecer.png",
+    "categoria": "Distopia"
   },
     {
     "id": 13,
@@ -101,7 +113,8 @@ const produtos = [
     "autor": "Holly Black",
     "resumo": "Jude precisa enfrentar traições e disputas políticas no reino das fadas para manter seu poder e sobreviver.",
     "preco": 42.76,
-    "capa": "public/imagem/rei_perverso.png"
+    "capa": "public/imagem/rei_perverso.png",
+    "categoria": "Romance"
   },
     {
     "id": 14,
@@ -109,7 +122,8 @@ const produtos = [
     "autor": "Stephen King",
     "resumo": "Um grupo de amigos enfrenta uma entidade monstruosa que assume a forma dos maiores medos das pessoas na cidade de Derry.",
     "preco": 106.90,
-    "capa": "public/imagem/itacoisa.png"
+    "capa": "public/imagem/itacoisa.png",
+    "categoria": "Suspense/Terror"
   },
     {
     "id": 15,
@@ -117,7 +131,8 @@ const produtos = [
     "autor": " Veronica Roth ",
     "resumo": "Em uma sociedade dividida por facções, Tris descobre que é divergente e ameaça o sistema criado para controlar a população.",
     "preco": 37.90,
-    "capa": "public/imagem/divergente.png"
+    "capa": "public/imagem/divergente.png",
+    "categoria": "Ficção Científica"
   },
    {
     "id": 16,
@@ -125,7 +140,8 @@ const produtos = [
     "autor": " Clarice Lispector ",
     "resumo": "A história acompanha Macabéa, uma jovem nordestina simples e invisível que tenta sobreviver no Rio de Janeiro.",
     "preco": 32.90,
-    "capa": "public/imagem/horaestrela.png"
+    "capa": "public/imagem/horaestrela.png",
+    "categoria": "Clássicos"
   }
   ,
    {
@@ -134,7 +150,8 @@ const produtos = [
     "autor": " Rick Riordan ",
     "resumo": "Percy Jackson embarca em uma missão perigosa para salvar a deusa Ártemis e impedir que uma antiga profecia destrua o Olimpo.",
     "preco": 40.90,
-    "capa": "public/imagem/maldicao.png"
+    "capa": "public/imagem/maldicao.png",
+    "categoria": "Aventura"
   }
   ,
    {
@@ -143,7 +160,8 @@ const produtos = [
     "autor": " George Orwell ",
     "resumo": "Animais de uma fazenda se rebelam contra os humanos, mas acabam criando um governo tão opressor quanto o anterior",
     "preco": 20.30,
-    "capa": "public/imagem/bichos.png"
+    "capa": "public/imagem/bichos.png",
+    "categoria": "Distopia"
   }
   ,
    {
@@ -152,7 +170,8 @@ const produtos = [
     "autor": " Kiyosaki Robert  ",
     "resumo": "O autor compara os ensinamentos financeiros de dois “pais” para mostrar a importância da educação financeira e dos investimentos.",
     "preco": 67.67,
-    "capa": "public/imagem/pairico.png"
+    "capa": "public/imagem/pairico.png",
+    "categoria": "AutoAjuda"
   }
   ,
    {
@@ -161,7 +180,8 @@ const produtos = [
     "autor": "  Jenna Evans Welch ",
     "resumo": " Lina viaja para a Itália para realizar o último desejo da mãe e acaba descobrindo segredos do passado enquanto vive um romance inesquecível.",
     "preco": 34.92,
-    "capa": "public/imagem/gelato.png"
+    "capa": "public/imagem/gelato.png",
+    "categoria": "Romance"
   }
  
 ]

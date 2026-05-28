@@ -1,7 +1,7 @@
 <script setup>
   // Este arquivo é um componente Vue que representa o cabeçalho do aplicativo, contendo a barra de navegação com links para as principais seções do site, como Home, Produtos e Carrinho. Ele é projetado para ser reutilizado em todas as páginas do aplicativo, proporcionando uma navegação consistente para os usuários.
   import { RouterLink } from 'vue-router';
- 
+ //#FFB6FF rosa claro/ #FF00AA rosa magenta /#D9A7FF lilas/#FF4DFF rosa meio sla/ #8A00DB roxo (a cara da kimberlly)
 
 </script>
 
