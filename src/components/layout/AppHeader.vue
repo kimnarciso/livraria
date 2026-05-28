@@ -1,0 +1,58 @@
+<script setup>
+  // Este arquivo é um componente Vue que representa o cabeçalho do aplicativo, contendo a barra de navegação com links para as principais seções do site, como Home, Produtos e Carrinho. Ele é projetado para ser reutilizado em todas as páginas do aplicativo, proporcionando uma navegação consistente para os usuários.
+  import { RouterLink } from 'vue-router';
+ 
+
+</script>
+
+
+
+<template>
+  <header>
+    <nav class="links">
+      <ul>
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li><RouterLink to="/produtos">Produtos</RouterLink></li>
+        <li><RouterLink to="/carrinho">Carrinho</RouterLink></li>
+      </ul>
+    </nav>
+
+  
+  </header>
+</template>
+
+<style scoped>
+  header {
+  
+  top: 0; left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  z-index: 100;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.router-link-active {
+  font-weight: bold;
+}
+.lista-produtos{
+  color: black;
+}
+
+.links ul{
+  display: flex;
+  gap: 20px;
+}
+</style>
+
