@@ -7,6 +7,19 @@ import { computed } from 'vue'
 const produtos = ref(listaProdutos);
 const filtro = ref('')
 const filtroAutor = ref('') //AAAAAAAAA
+const categorias = ref('')
+
+/*
+const categoriaFiltradas = computed(() => { 
+  if (categorias.value.trim().length > 0) {
+
+    return produtosExibidos.value.filter(item => 
+      item.categorias.toLowerCase().includes(categorias.value.toLowerCase())
+    )
+  } else {
+    return produtosExibidos.value
+  }
+})*/
 
 const autoresFiltrados = computed(() => { 
   if (filtroAutor.value.trim().length > 0) {
@@ -14,7 +27,13 @@ const autoresFiltrados = computed(() => {
     return produtosExibidos.value.filter(item => 
       item.autor.toLowerCase().includes(filtroAutor.value.toLowerCase())
     )
-  } else {
+  }
+    else if (categorias.value.trim().length > 0){
+         return produtosExibidos.value.filter(item => 
+      item.categoria.toLowerCase().includes(categorias.value.toLowerCase())
+    )
+    }
+     else {
     return produtosExibidos.value
   }
 })
@@ -65,6 +84,22 @@ const produtosExibidos = computed(() => {
     Aqui temos livros para várias idades,gostos,tudo em <br>
     um só lugar
   </p>
+  
+     <div class="caixa">
+      <select name="catgoria" id="" v-model="categorias">
+        <option disabled selected value="">Procurar por categoria</option>
+        <option value="AutoAjuda">AutoAjuda</option>
+         <option value="Aventura">Aventura</option>
+      <option value="Clássicos">Clássicos</option>
+      <option value="Distopia">Distopia</option>
+      <option value="Fantasia">Fantasia</option>
+      <option value="Ficção Científica">Ficção Científica</option>
+      <option value="História">História</option>
+      <option value="Romance">Romance</option>
+      <option value="Suspense/Terror">Suspense/Terror</option>
+      </select>
+     
+    </div>
 
 <div class="barras">
 
@@ -83,13 +118,15 @@ const produtosExibidos = computed(() => {
     <p class="mensagem">
       {{ autorNaoEncontrado() }}
     </p>
- 
-    </div>
+</div>
+   
+
+    
   
  <div class="produto-lista" >
           <ProductCard v-for="produto in autoresFiltrados" :key="produto.id"
         class="produto-card" :id="produto.id"
-        :titulo="produto.titulo" :preco="produto.preco"
+        :titulo="produto.titulo" :preco="produto.preco" :categoria="produto.categoria"
         :capa="produto.capa" :resumo="produto.resumo" :autor="produto.autor">
 </ProductCard>
 </div>
