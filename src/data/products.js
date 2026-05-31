@@ -6,7 +6,8 @@ const produtos = [
     "resumo": "Em uma sociedade cruel, Katniss precisa lutar pela própria vida em um jogo mortal.",
     "preco": 75.90,
     "capa": "public/imagem/capa-jogos_vorazes.jpg",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  :  400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@ const produtos = [
     "resumo": " Em um reino dividido pelo sangue, uma garota comum descobre um poder capaz de mudar tudo.",
     "preco": 54.99,
     "capa": "public/imagem/a-rainha_vermelha.jpg",
-    "categoria": "Fantasia"
+    "categoria": "Fantasia",
+    "detalhes": "Editora: Seguinte, Data da publicação : 9 junho 2015, Número de páginas  :  424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@ const produtos = [
     "resumo": "Um jovem semideus descobre seu destino em uma missão cheia de perigos mitológicos",
     "preco": 43.98,
     "capa": "public/imagem/ladrao-de-raios.jpg",
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "detalhes": "Editora:  Intrínseca, Data da publicação : 3 janeiro 2011, Número de páginas  : 400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@ const produtos = [
     "resumo": "Em meio às intrigas do reino das fadas, Jude luta por poder e sobrevivência",
     "preco": 55.95,
     "capa": "public/imagem/principe-cruel.jpg",
-    "categoria": "Romance"
+    "categoria": "Romance",
+    "detalhes": "Editora:  Galera, Data da publicação : 10 setembro 2018, Número de páginas  : 322  páginas, Idade de leitura  : 16 anos e acima"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@ const produtos = [
     "resumo": "Percy embarca em uma aventura épica para salvar o Acampamento Meio-Sangue.",
     "preco": 40.99,
     "capa": "public/imagem/o-mar-de-monstros.jpg",
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "detalhes": "Editora:  Intrínseca, Data da publicação : 17 abril 2009, Número de páginas  : 304  páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@ const produtos = [
     "resumo": " Katniss volta à arena em uma disputa ainda mais perigosa e cheia de revolta.",
     "preco": 20.99,
     "capa": "public/imagem/em _chamas.jpg",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora:  Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 416 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@ const produtos = [
     "resumo": "Entre vidas alternativas e escolhas do passado, Nora descobre o verdadeiro valor de viver",
     "preco": 70.54,
     "capa": "public/imagem/biblioteca_da_meia-noite.jpg",
-    "categoria": "Fantasia"
+    "categoria": "Fantasia",
+    "detalhes": "Editora:  Bertrand Brasil, Data da publicação : 27 setembro 2021, Número de páginas  : 308 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@ const produtos = [
     "resumo": "Sete histórias sombrias revelam os pecados escondidos em um misterioso vilarejo.",
     "preco": 80.99,
     "capa": "public/imagem/o-vilarejo.jpg",
-    "categoria": "Suspense/Terror"
+    "categoria": "Suspense/Terror",
+    "detalhes": "Editora:  Suma, Data da publicação : 14 agosto 2015, Número de páginas  : 96 páginas, Idade de leitura  : Idade sugerida pelo cliente: 18 anos e acima"
   },
     {
     "id": 9,
@@ -78,7 +86,8 @@ const produtos = [
     "resumo": "Katniss lidera a revolução final contra o regime opressor de Panem.",
     "preco": 21.90,
     "capa": "public/imagem/esperanca.png",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
     {
     "id": 10,
@@ -87,7 +96,8 @@ const produtos = [
     "resumo": "Obra política que defende a luta de classes e a união dos trabalhadores contra o capitalismo.",
     "preco": 0.00,
     "capa": "public/imagem/manifesto.png",
-    "categoria": "História"
+    "categoria": "História",
+    "detalhes": "Editora: Paz & Terra, Data da publicação : 22 novembro 2021, Número de páginas  : 80 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
     {
     "id": 11,
@@ -96,7 +106,8 @@ const produtos = [
     "resumo": "O jovem Coriolanus Snow tenta conquistar poder ao orientar uma tributo nos primeiros Jogos Vorazes.",
     "preco": 65.90,
     "capa": "public/imagem/cantiga.png",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 junho 2020, Número de páginas  : 575 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 12,
@@ -105,7 +116,8 @@ const produtos = [
     "resumo": "Durante uma edição especial dos Jogos Vorazes, jovens precisam lutar pela sobrevivência em meio à opressão da Capital.",
     "preco": 70.90,
     "capa": "public/imagem/amanhecer.png",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 18 março 2025, Número de páginas  : 452 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 13,
@@ -114,7 +126,8 @@ const produtos = [
     "resumo": "Jude precisa enfrentar traições e disputas políticas no reino das fadas para manter seu poder e sobreviver.",
     "preco": 42.76,
     "capa": "public/imagem/rei_perverso.png",
-    "categoria": "Romance"
+    "categoria": "Romance",
+    "detalhes": "Editora: Galera, Data da publicação : 18 maio 2020, Número de páginas  : 352 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 14,
@@ -123,7 +136,8 @@ const produtos = [
     "resumo": "Um grupo de amigos enfrenta uma entidade monstruosa que assume a forma dos maiores medos das pessoas na cidade de Derry.",
     "preco": 106.90,
     "capa": "public/imagem/itacoisa.png",
-    "categoria": "Suspense/Terror"
+    "categoria": "Suspense/Terror",
+    "detalhes": "Editora: Suma, Data da publicação : 4 agosto 2014, Número de páginas  : 1645 páginas, Idade de leitura  : 17 anos e acima"
   },
     {
     "id": 15,
@@ -132,7 +146,8 @@ const produtos = [
     "resumo": "Em uma sociedade dividida por facções, Tris descobre que é divergente e ameaça o sistema criado para controlar a população.",
     "preco": 37.90,
     "capa": "public/imagem/divergente.png",
-    "categoria": "Ficção Científica"
+    "categoria": "Ficção Científica",
+    "detalhes": "Editora: MOLINO, Data da publicação : 13 junho 2013, Número de páginas  : 388 páginas, Idade de leitura  : 14 anos e acima"
   },
    {
     "id": 16,
@@ -141,7 +156,8 @@ const produtos = [
     "resumo": "A história acompanha Macabéa, uma jovem nordestina simples e invisível que tenta sobreviver no Rio de Janeiro.",
     "preco": 32.90,
     "capa": "public/imagem/horaestrela.png",
-    "categoria": "Clássicos"
+    "categoria": "Clássicos",
+    "detalhes": "Editora: Rocco, Data da publicação : 4 agosto 1998, Número de páginas  : 88 páginas, Idade de leitura  : 14 anos e acima"
   }
   ,
    {
@@ -151,7 +167,8 @@ const produtos = [
     "resumo": "Percy Jackson embarca em uma missão perigosa para salvar a deusa Ártemis e impedir que uma antiga profecia destrua o Olimpo.",
     "preco": 40.90,
     "capa": "public/imagem/maldicao.png",
-    "categoria": "Aventura"
+    "categoria": "Aventura",
+    "detalhes": "Editora: Intrínseca, Data da publicação : 13 de outubro de 2009, Número de páginas  : 336 páginas, Idade de leitura  : 12 anos e acima"
   }
   ,
    {
@@ -161,7 +178,8 @@ const produtos = [
     "resumo": "Animais de uma fazenda se rebelam contra os humanos, mas acabam criando um governo tão opressor quanto o anterior",
     "preco": 20.30,
     "capa": "public/imagem/bichos.png",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Companhia das Letras, Data da publicação : 10 janeiro 2007, Número de páginas  : 152 páginas, Idade de leitura  : 15 anos e acima"
   }
   ,
    {
@@ -171,7 +189,8 @@ const produtos = [
     "resumo": "O autor compara os ensinamentos financeiros de dois “pais” para mostrar a importância da educação financeira e dos investimentos.",
     "preco": 67.67,
     "capa": "public/imagem/pairico.png",
-    "categoria": "AutoAjuda"
+    "categoria": "AutoAjuda",
+    "detalhes": "Editora: Alta Books, Data da publicação : 26 julho 2017, Número de páginas  : 336 páginas, Idade de leitura  : 15 anos e acima"
   }
   ,
    {
@@ -181,7 +200,8 @@ const produtos = [
     "resumo": " Lina viaja para a Itália para realizar o último desejo da mãe e acaba descobrindo segredos do passado enquanto vive um romance inesquecível.",
     "preco": 34.92,
     "capa": "public/imagem/gelato.png",
-    "categoria": "Romance"
+    "categoria": "Romance",
+    "detalhes": "Editora: Intrínseca, Data da publicação : 21 julho 2017, Número de páginas  : 320 páginas, Idade de leitura  : 12 anos e acima" 
   }
  
 ]
