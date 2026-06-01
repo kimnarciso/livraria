@@ -183,7 +183,46 @@ const produtos = [
     "capa": "public/imagem/gelato.png",
     "categoria": "Romance"
   }
- 
+  ,
+  {
+    "id": 21,
+    "titulo": "Uma mulher no escuro",
+    "autor": "Raphael Monte",
+    "resumo": "Uma jovem enfrenta mistérios e perigos enquanto tenta sobreviver em meio à escuridão e ao desconhecido.",
+    "preco": 57.63,
+    "capa": "public/imagem/uma-mulher-no-escuro.jpg",
+    "categoria": "Suspense/Terror"
+  }
+ ,
+ {
+  "id": 22,
+    "titulo": "Maze Runner: Correr ou Morrer",
+    "autor": "James Dashner",
+    "resumo": "Preso em um labirinto mortal, Thomas precisa encontrar uma saída antes que seja tarde demais.",
+    "preco": 32.14,
+    "capa": "public/imagem/maze-runner.jpg",
+    "categoria": "Distopia"
+ }
+ ,
+ {
+  "id": 23,
+    "titulo": "O menino do pijama listrado",
+    "autor": "John Boyne",
+    "resumo": "Uma emocionante história de amizade e inocência durante um dos períodos mais sombrios da história.",
+    "preco": 42.00,
+    "capa": "public/imagem/o-menino-do-pijama-listrado.jpg",
+    "categoria": "Drama"
+ }
+  ,
+ {
+  "id": 24,
+    "titulo": "O extraordinário",
+    "autor": "R. J. Palacio",
+    "resumo": "A história de Auggie Pullman, um garoto com uma condição facial rara que enfrenta os desafios de frequentar a escola pela primeira vez.",
+    "preco": 38.41,
+    "capa": "public/imagem/extraordinario.jpg",
+    "categoria": "Drama"
+ }
 ]
 
 export { produtos as listaProdutos }
@@ -305,5 +344,5 @@ export { produtos as listaProdutos }
 
  ]
 
- export {pequenos as listaPequenos}
+ export { produtos, pequenos as listaPequenos }
 
