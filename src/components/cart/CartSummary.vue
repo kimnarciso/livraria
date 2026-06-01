@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 import { valorTotal, quantidadeTotal, limparCarrinho } from '@/utils/cartUtils'
 
@@ -13,6 +14,7 @@ function finalizarCompra() {
 function verMaisLivros() {
   mostrarFinalizacao.value = false
   limparCarrinho()
+
 }
 </script>
 
@@ -40,9 +42,10 @@ function verMaisLivros() {
         Seu pedido foi concluído com sucesso!
       </p>
 
-      <button @click="verMaisLivros">
-        Ver mais livros
-      </button>
+      <RouterLink  to="/produtos">
+        <button @click="verMaisLivros">Ver mais livros</button>
+      </RouterLink>
+      
     </div>
   </div>
 </template>
