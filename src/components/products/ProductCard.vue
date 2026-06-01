@@ -1,63 +1,57 @@
 <script setup>
-// Este arquivo é um componente Vue que permite componentizar a exibição de um produto individual em uma lista de produtos. Ele exibe as informações do produto, como nome, preço e imagem, e pode incluir um botão para adicionar o produto ao carrinho de compras. O componente é projetado para ser reutilizado em diferentes partes do aplicativo onde a exibição de produtos é necessária, como na página de listagem de produtos ou em recomendações de produtos relacionados. Como sugestão, não exiba todas as informações do Livro, deixando alguma div oculta e trabalhando o v-for ou v-if para exibir somente o nome e o preço, e ao clicar em um botão "Detalhes" ou "Ver mais", exiba as informações adicionais do produto, como descrição, autor e imagem. Isso pode ser feito usando uma propriedade de estado para controlar a visibilidade das informações adicionais.
-import { ref } from 'vue';
-import { formataPreco } from '@/utils/currencyUtils';
-import ButtonChild from './ButtonChild.vue';
-defineProps(['capa', 'titulo', 'resumo', 'preco', 'autor', 'id','detalhes']);
-defineEmits(['fechar'])
- // const mostrarDdetalhesProduto = ref(false);
-const mostrarDetalhes = ref(false)
 
+// Este componente mostra um livro na tela de produtos.
+// O botão chama addCarrinho(id), que adiciona o livro escolhido no carrinho.
+
+import { formataPreco } from '@/utils/currencyUtils'
+import { addCarrinho } from '@/utils/cartUtils'
+
+const props = defineProps(['capa', 'titulo', 'resumo', 'preco', 'autor', 'id'])
 </script>
 
 <template>
-  
-    <div class="produto-card" >
-      <img :src="capa" alt="">
+  <div class="produto-card">
+    <img :src="capa" alt="Capa do livro" class="capa-livro" />
 
-      <h2>
-        {{ titulo }}
-      </h2>
-      <h3>
-        {{ autor }}
-      </h3>
-      <p>
-        {{resumo }}
-      </p>
-      <p>
-        {{ formataPreco(preco) }}
-      </p>
-     
-      <ButtonChild  @clique="mostrarDetalhes = true">
-      Ver detalhes
-    </ButtonChild>
-      <div class="modal-overlay" v-if="mostrarDetalhes" @clique="mostrarDetalhes = false" >
-      <div  class="modal"  @click.stop>
+    <h2>{{ titulo }}</h2>
+    <h3>{{ autor }}</h3>
+    <p>{{ resumo }}</p>
+    <p class="preco">{{ formataPreco(preco) }}</p>
 
-     <p  v-for="detalhe in detalhes.split(',')" :key="detalhe">
-      {{ detalhe.trim() }}
-      </p>
-        <ButtonChild @clique="mostrarDetalhes = false">
-        Fechar
-      </ButtonChild>
-            </div>
-        </div>
-    </div>
-        
-   
-
+    <button @click="addCarrinho(props.id)">Adicionar ao carrinho</button>
+  </div>
 </template>
 
 <style scoped>
-.produto-card{
+.produto-card {
   border: 1px solid #ccc;
   padding: 16px;
   border-radius: 8px;
   width: 220px;
-  
+  background: white;
 }
-img{
+
+.capa-livro {
+  width: 180px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.preco {
+  font-weight: bold;
+  color: #8a00db;
+}
+
+button {
   width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #8a00db;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
 }
 .modal-overlay {
   position: fixed;
@@ -83,4 +77,7 @@ img{
   object-fit: cover;
 }
 
+button:hover {
+  background: #6d00ad;
+}
 </style>

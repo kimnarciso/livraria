@@ -87,7 +87,7 @@ const produtosExibidos = computed(() => {
   
      <div class="caixa">
       <select name="catgoria" id="" v-model="categorias">
-        <option disabled selected value="">Procurar por categoria</option>
+        <option value="">Todos</option>
         <option value="AutoAjuda">AutoAjuda</option>
          <option value="Aventura">Aventura</option>
       <option value="Clássicos">Clássicos</option>
@@ -97,6 +97,7 @@ const produtosExibidos = computed(() => {
       <option value="História">História</option>
       <option value="Romance">Romance</option>
       <option value="Suspense/Terror">Suspense/Terror</option>
+      <option value="Drama">Drama</option>
       </select>
      
     </div>
