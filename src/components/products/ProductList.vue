@@ -128,7 +128,7 @@ const produtosExibidos = computed(() => {
           <ProductCard v-for="produto in autoresFiltrados" :key="produto.id"
         class="produto-card" :id="produto.id"
         :titulo="produto.titulo" :preco="produto.preco" :categoria="produto.categoria"
-        :capa="produto.capa" :resumo="produto.resumo" :autor="produto.autor">
+        :capa="produto.capa" :resumo="produto.resumo" :autor="produto.autor" :detalhes="produto.detalhes"
 </ProductCard>
 </div>
   

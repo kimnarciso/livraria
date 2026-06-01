@@ -1,4 +1,5 @@
 <script setup>
+
 // Este componente mostra um livro na tela de produtos.
 // O botão chama addCarrinho(id), que adiciona o livro escolhido no carrinho.
 
@@ -51,6 +52,29 @@ button {
   color: white;
   cursor: pointer;
   font-weight: 600;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+}
+.modal img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 button:hover {
