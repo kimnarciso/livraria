@@ -6,12 +6,11 @@
 import { formataPreco } from '@/utils/currencyUtils'
 import { addCarrinho } from '@/utils/cartUtils'
 
-const props = defineProps(['capa', 'titulo', 'resumo', 'preco', 'autor', 'id'])
-// Este arquivo é um componente Vue que permite componentizar a exibição de um produto individual em uma lista de produtos. Ele exibe as informações do produto, como nome, preço e imagem, e pode incluir um botão para adicionar o produto ao carrinho de compras. O componente é projetado para ser reutilizado em diferentes partes do aplicativo onde a exibição de produtos é necessária, como na página de listagem de produtos ou em recomendações de produtos relacionados. Como sugestão, não exiba todas as informações do Livro, deixando alguma div oculta e trabalhando o v-for ou v-if para exibir somente o nome e o preço, e ao clicar em um botão "Detalhes" ou "Ver mais", exiba as informações adicionais do produto, como descrição, autor e imagem. Isso pode ser feito usando uma propriedade de estado para controlar a visibilidade das informações adicionais.
+const props = defineProps(['capa', 'titulo', 'resumo', 'preco', 'autor', 'id', 'detalhes'])
+/* Este arquivo é um componente Vue que permite componentizar a exibição de um produto individual em uma lista de produtos. Ele exibe as informações do produto, como nome, preço e imagem, e pode incluir um botão para adicionar o produto ao carrinho de compras. O componente é projetado para ser reutilizado em diferentes partes do aplicativo onde a exibição de produtos é necessária, como na página de listagem de produtos ou em recomendações de produtos relacionados. Como sugestão, não exiba todas as informações do Livro, deixando alguma div oculta e trabalhando o v-for ou v-if para exibir somente o nome e o preço, e ao clicar em um botão "Detalhes" ou "Ver mais", exiba as informações adicionais do produto, como descrição, autor e imagem. Isso pode ser feito usando uma propriedade de estado para controlar a visibilidade das informações adicionais. */
 import { ref } from 'vue';
-import { formataPreco } from '@/utils/currencyUtils';
 import ButtonChild from './ButtonChild.vue';
-defineProps(['capa', 'titulo', 'resumo', 'preco', 'autor', 'id','detalhes']);
+
 defineEmits(['fechar'])
  // const mostrarDdetalhesProduto = ref(false);
 const mostrarDetalhes = ref(false)
@@ -34,19 +33,20 @@ const mostrarDetalhes = ref(false)
       <div class="modal-overlay" v-if="mostrarDetalhes" @clique="mostrarDetalhes = false" >
       <div  class="modal"  @click.stop>
 
-     <p  v-for="detalhe in detalhes.split(',')" :key="detalhe">
-      {{ detalhe.trim() }}
-      </p>
+     <p v-for="detalhe in props.detalhes.split(',')" :key="detalhe">
+  {{ detalhe.trim() }}
+</p>
         <ButtonChild @clique="mostrarDetalhes = false">
         Fechar
       </ButtonChild>
             </div>
         </div>
+        <ButtonChild @clique="addCarrinho(props.id)">Adicionar ao carrinho</ButtonChild>
     </div>
         
    
 
-    <button @click="addCarrinho(props.id)">Adicionar ao carrinho</button>
+    
  
 </template>
 

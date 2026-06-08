@@ -7,7 +7,7 @@ const produtos = [
     "preco": 75.90,
     "capa": "/imagem/capa-jogos_vorazes.jpg",
     "categoria": "Distopia",
-    "detalhes": "Editora: Rocco Jovens Leitores, Data da ação : 15 fevereiro 2012, Número de páginas  :  400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  :  400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@ const produtos = [
     "preco": 54.99,
     "capa": "/imagem/a-rainha_vermelha.jpg",
     "categoria": "Fantasia",
-    "detalhes": "Editora: Seguinte, Data da ação : 9 junho 2015, Número de páginas  :  424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora: Seguinte, Data da publicação : 9 junho 2015, Número de páginas  :  424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@ const produtos = [
     "preco": 43.98,
     "capa": "/imagem/ladrao-de-raios.jpg",
     "categoria": "Aventura",
-    "detalhes": "Editora:  Intrínseca, Data da ação : 3 janeiro 2011, Número de páginas  : 400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
+    "detalhes": "Editora:  Intrínseca, Data da publicação : 3 janeiro 2011, Número de páginas  : 400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@ const produtos = [
     "preco": 55.95,
     "capa": "/imagem/principe-cruel.jpg",
     "categoria": "Romance",
-    "detalhes": "Editora:  Galera, Data da ação : 10 setembro 2018, Número de páginas  : 322  páginas, Idade de leitura  : 16 anos e acima"
+    "detalhes": "Editora:  Galera, Data da publicação : 10 setembro 2018, Número de páginas  : 322  páginas, Idade de leitura  : 16 anos e acima"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@ const produtos = [
     "preco": 40.99,
     "capa": "/imagem/o-mar-de-monstros.jpg",
     "categoria": "Aventura",
-    "detalhes": "Editora:  Intrínseca, Data da ação : 17 abril 2009, Número de páginas  : 304  páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
+    "detalhes": "Editora:  Intrínseca, Data da publicação : 17 abril 2009, Número de páginas  : 304  páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@ const produtos = [
     "preco": 20.99,
     "capa": "/imagem/em _chamas.jpg",
     "categoria": "Distopia",
-    "detalhes": "Editora:  Rocco Jovens Leitores, Data da ação : 15 fevereiro 2012, Número de páginas  : 416 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora:  Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 416 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@ const produtos = [
     "preco": 70.54,
     "capa": "/imagem/biblioteca_da_meia-noite.jpg",
     "categoria": "Fantasia",
-    "detalhes": "Editora:  Bertrand Brasil, Data da ação : 27 setembro 2021, Número de páginas  : 308 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora:  Bertrand Brasil, Data da publicação : 27 setembro 2021, Número de páginas  : 308 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@ const produtos = [
     "preco": 80.99,
     "capa": "/imagem/o-vilarejo.jpg",
     "categoria": "Suspense/Terror",
-    "detalhes": "Editora:  Suma, Data da ação : 14 agosto 2015, Número de páginas  : 96 páginas, Idade de leitura  : Idade sugerida pelo cliente: 18 anos e acima"
+    "detalhes": "Editora:  Suma, Data da publicação : 14 agosto 2015, Número de páginas  : 96 páginas, Idade de leitura  : Idade sugerida pelo cliente: 18 anos e acima"
   },
     {
     "id": 9,
@@ -87,7 +87,7 @@ const produtos = [
     "preco": 21.90,
     "capa": "/imagem/esperanca.png",
     "categoria": "Distopia",
-    "detalhes": "Editora: Rocco Jovens Leitores, Data da ação : 15 fevereiro 2012, Número de páginas  : 424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
     {
     "id": 10,
@@ -97,7 +97,7 @@ const produtos = [
     "preco": 0.00,
     "capa": "/imagem/manifesto.png",
     "categoria": "História",
-    "detalhes": "Editora: Paz & Terra, Data da ação : 22 novembro 2021, Número de páginas  : 80 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
+    "detalhes": "Editora: Paz & Terra, Data da publicação : 22 novembro 2021, Número de páginas  : 80 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
     {
     "id": 11,
@@ -107,7 +107,7 @@ const produtos = [
     "preco": 65.90,
     "capa": "/imagem/cantiga.png",
     "categoria": "Distopia",
-    "detalhes": "Editora: Rocco Jovens Leitores, Data da ação : 15 junho 2020, Número de páginas  : 575 páginas, Idade de leitura  : 14 anos e acima"
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 junho 2020, Número de páginas  : 575 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 12,
@@ -117,7 +117,7 @@ const produtos = [
     "preco": 70.90,
     "capa": "/imagem/amanhecer.png",
     "categoria": "Distopia",
-    "detalhes": "Editora: Rocco Jovens Leitores, Data da ação : 18 março 2025, Número de páginas  : 452 páginas, Idade de leitura  : 14 anos e acima"
+    "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 18 março 2025, Número de páginas  : 452 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 13,
@@ -127,7 +127,7 @@ const produtos = [
     "preco": 42.76,
     "capa": "/imagem/rei_perverso.png",
     "categoria": "Romance",
-    "detalhes": "Editora: Galera, Data da ação : 18 maio 2020, Número de páginas  : 352 páginas, Idade de leitura  : 14 anos e acima"
+    "detalhes": "Editora: Galera, Data da publicação : 18 maio 2020, Número de páginas  : 352 páginas, Idade de leitura  : 14 anos e acima"
   },
     {
     "id": 14,
@@ -137,7 +137,7 @@ const produtos = [
     "preco": 106.90,
     "capa": "/imagem/itacoisa.png",
     "categoria": "Suspense/Terror",
-    "detalhes": "Editora: Suma, Data da ação : 4 agosto 2014, Número de páginas  : 1645 páginas, Idade de leitura  : 17 anos e acima"
+    "detalhes": "Editora: Suma, Data da publicação : 4 agosto 2014, Número de páginas  : 1645 páginas, Idade de leitura  : 17 anos e acima"
   },
     {
     "id": 15,
@@ -147,7 +147,7 @@ const produtos = [
     "preco": 37.90,
     "capa": "/imagem/divergente.png",
     "categoria": "Ficção Científica",
-    "detalhes": "Editora: MOLINO, Data da ação : 13 junho 2013, Número de páginas  : 388 páginas, Idade de leitura  : 14 anos e acima"
+    "detalhes": "Editora: MOLINO, Data da publicação : 13 junho 2013, Número de páginas  : 388 páginas, Idade de leitura  : 14 anos e acima"
   },
    {
     "id": 16,
@@ -157,7 +157,7 @@ const produtos = [
     "preco": 32.90,
     "capa": "/imagem/horaestrela.png",
     "categoria": "Clássicos",
-    "detalhes": "Editora: Rocco, Data da ação : 4 agosto 1998, Número de páginas  : 88 páginas, Idade de leitura  : 14 anos e acima"
+    "detalhes": "Editora: Rocco, Data da publicação : 4 agosto 1998, Número de páginas  : 88 páginas, Idade de leitura  : 14 anos e acima"
   }
   ,
    {
@@ -168,7 +168,7 @@ const produtos = [
     "preco": 40.90,
     "capa": "/imagem/maldicao.png",
     "categoria": "Aventura",
-    "detalhes": "Editora: Intrínseca, Data da ação : 13 de outubro de 2009, Número de páginas  : 336 páginas, Idade de leitura  : 12 anos e acima"
+    "detalhes": "Editora: Intrínseca, Data da publicação : 13 de outubro de 2009, Número de páginas  : 336 páginas, Idade de leitura  : 12 anos e acima"
   }
   ,
    {
@@ -179,7 +179,7 @@ const produtos = [
     "preco": 20.30,
     "capa": "/imagem/bichos.png",
     "categoria": "Distopia",
-    "detalhes": "Editora: Companhia das Letras, Data da ação : 10 janeiro 2007, Número de páginas  : 152 páginas, Idade de leitura  : 15 anos e acima"
+    "detalhes": "Editora: Companhia das Letras, Data da publicação : 10 janeiro 2007, Número de páginas  : 152 páginas, Idade de leitura  : 15 anos e acima"
   }
   ,
    {
@@ -190,7 +190,7 @@ const produtos = [
     "preco": 67.67,
     "capa": "/imagem/pairico.png",
     "categoria": "AutoAjuda",
-    "detalhes": "Editora: Alta Books, Data da ação : 26 julho 2017, Número de páginas  : 336 páginas, Idade de leitura  : 15 anos e acima"
+    "detalhes": "Editora: Alta Books, Data da publicação : 26 julho 2017, Número de páginas  : 336 páginas, Idade de leitura  : 15 anos e acima"
   }
   ,
    {
@@ -201,7 +201,7 @@ const produtos = [
     "preco": 34.92,
     "capa": "/imagem/gelato.png",
     "categoria": "Romance",
-    "detalhes": "Editora: Intrínseca, Data da ação : 21 julho 2017, Número de páginas  : 320 páginas, Idade de leitura  : 12 anos e acima" 
+    "detalhes": "Editora: Intrínseca, Data da publicação : 21 julho 2017, Número de páginas  : 320 páginas, Idade de leitura  : 12 anos e acima" 
   }
   ,
   {
@@ -260,7 +260,7 @@ export { produtos as listaProdutos }
     "id": 2,
     "nome": "Rick Riordan ",
     "imagem": " /imagem/riordan.png ",
-    "resumo": "Rick Riordan é um escritor norte-americano famoso por transformar a mitologia grega em aventuras modernas cheias de humor e ação. Ex-professor de história, Riordan criou a série Percy Jackson e os Olimpianos para incentivar o filho a gostar de leitura. O sucesso foi enorme, levando à criação de diversos universos inspirados em mitologias diferentes, como romana, egípcia e nórdica. Entre suas obras mais conhecidas estão O Ladrão de Raios, A Maldição do Titã e Os Heróis do Olimpo. Seus livros conquistaram milhões de leitores jovens ao combinar aventura, fantasia e referências mitológicas de forma divertida.",
+    "resumo": "Rick Riordan é um escritor norte-americano famoso por transformar a mitologia grega em aventuras modernas cheias de humor e publicação. Ex-professor de história, Riordan criou a série Percy Jackson e os Olimpianos para incentivar o filho a gostar de leitura. O sucesso foi enorme, levando à cripublicação de diversos universos inspirados em mitologias diferentes, como romana, egípcia e nórdica. Entre suas obras mais conhecidas estão O Ladrão de Raios, A Maldição do Titã e Os Heróis do Olimpo. Seus livros conquistaram milhões de leitores jovens ao combinar aventura, fantasia e referências mitológicas de forma divertida.",
     "link": "https://rickriordan.com"
   },
      {
@@ -328,7 +328,7 @@ export { produtos as listaProdutos }
    {
     "id": 2,
      "nome": "Raphael Montes",
-    "resumo": "Raphael Montes é um escritor brasileiro conhecido principalmente por suas obras de suspense, terror e investigação criminal. Nascido no Rio de Janeiro, ganhou destaque ainda jovem ao lançar livros com histórias sombrias e cheias de reviravoltas psicológicas. Seu estilo mistura violência, mistério e crítica social, tornando-o um dos autores contemporâneos mais populares do gênero no Brasil.",
+    "resumo": "Raphael Montes é um escritor brasileiro conhecido principalmente por suas obras de suspense, terror e investigpublicação criminal. Nascido no Rio de Janeiro, ganhou destaque ainda jovem ao lançar livros com histórias sombrias e cheias de reviravoltas psicológicas. Seu estilo mistura violência, mistério e crítica social, tornando-o um dos autores contemporâneos mais populares do gênero no Brasil.",
     "imagem": "/imagem/montes.png",
     "link": "https://www.raphaelmontes.com.br"
   },
@@ -342,14 +342,14 @@ export { produtos as listaProdutos }
    {
     "id": 4,
      "nome": "George Orwell",
-    "resumo": "George Orwell foi um escritor e jornalista britânico famoso por suas críticas políticas e sociais. Suas obras discutem autoritarismo, manipulação e desigualdade, tornando-se referências mundiais da literatura distópica. Orwell usava suas histórias para alertar sobre os perigos do controle excessivo do Estado e da perda da liberdade individual.",
+    "resumo": "George Orwell foi um escritor e jornalista britânico famoso por suas críticas políticas e sociais. Suas obras discutem autoritarismo, manipulpublicação e desigualdade, tornando-se referências mundiais da literatura distópica. Orwell usava suas histórias para alertar sobre os perigos do controle excessivo do Estado e da perda da liberdade individual.",
     "imagem": "/imagem/george.png",
     "link": "https://www.casadosaber.com.br/autores/george-orwell"
   },
    {
     "id": 5,
      "nome": "Veronica Roth",
-    "resumo": "Veronica Roth é uma escritora norte-americana conhecida mundialmente pela série distópica Divergente. Ela começou a escrever ainda jovem e alcançou enorme sucesso com histórias voltadas ao público jovem adulto, misturando ação, romance e crítica social. Suas obras abordam identidade, escolhas e liberdade em sociedades controladas.",
+    "resumo": "Veronica Roth é uma escritora norte-americana conhecida mundialmente pela série distópica Divergente. Ela começou a escrever ainda jovem e alcançou enorme sucesso com histórias voltadas ao público jovem adulto, misturando publicação, romance e crítica social. Suas obras abordam identidade, escolhas e liberdade em sociedades controladas.",
     "imagem": "/imagem/roth.png",
     "link": "https://veronicarothbooks.com" 
   },
