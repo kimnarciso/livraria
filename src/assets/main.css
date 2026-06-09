@@ -97,15 +97,3 @@ img {
     padding: 1.25rem 1rem;
   }
 }
-
-@media (min-width: 1024px) {
-  body {
-    display: block;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
