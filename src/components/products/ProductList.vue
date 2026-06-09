@@ -135,19 +135,122 @@ const produtosExibidos = computed(() => {
 </template>
 
 <style scoped>
-  .barras{
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-  }
- 
-.produto-lista{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 20px;
+.aventura {
+  font-size: 1.8rem;
+  color: #3b1c75;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
-  .produto-lista{
+
+.caixa {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+select {
+  padding: 0.75rem 1.25rem;
+  border: 2px solid rgba(123, 81, 201, 0.25);
+  border-radius: 999px;
+  background: white;
+  color: #5f3dc4;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select:hover,
+select:focus {
+  border-color: #7b51c9;
+  box-shadow: 0 0 0 3px rgba(123, 81, 201, 0.1);
+  outline: none;
+}
+
+.barras {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.barra-pesquisa,
+.pesquisa-autor {
+  flex: 1;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid rgba(123, 81, 201, 0.25);
+  border-radius: 999px;
+  background: white;
+  color: #333;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+input::placeholder {
+  color: rgba(95, 61, 196, 0.5);
+}
+
+input:hover,
+input:focus {
+  border-color: #7b51c9;
+  box-shadow: 0 0 0 3px rgba(123, 81, 201, 0.1);
+  outline: none;
+}
+
+.mensagem {
+  color: #7b51c9;
+  font-style: italic;
+  margin: 0.75rem 0;
+}
+
+.produto-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .produto-lista {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aventura {
+    font-size: 1.4rem;
+  }
+
+  .barras {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .barra-pesquisa,
+  .pesquisa-autor {
+    max-width: 100%;
+  }
+
+  .produto-lista {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  select,
+  input {
+    font-size: 16px;
+  }
+}
+</style>
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;

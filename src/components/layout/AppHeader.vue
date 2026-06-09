@@ -23,36 +23,68 @@
 
 <style scoped>
   header {
-  
   top: 0; left: 0;
   width: 100%;
-  background: #f8f8f8;
+  background: linear-gradient(135deg, rgba(123, 81, 201, 0.12) 0%, rgba(95, 61, 196, 0.08) 100%);
+  border-bottom: 2px solid rgba(123, 81, 201, 0.25);
   z-index: 100;
-  padding: 16px;
-  border-bottom: 1px solid #ddd;
+  padding: 1rem 1.5rem;
   box-sizing: border-box;
+  box-shadow: 0 2px 12px rgba(95, 61, 196, 0.08);
 }
 
 nav {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #5f3dc4;
+  font-weight: 500;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background: rgba(123, 81, 201, 0.15);
+  color: #3f1a76;
 }
 
 .router-link-active {
-  font-weight: bold;
+  background: rgba(123, 81, 201, 0.2);
+  color: #3b1c75;
+  font-weight: 600;
 }
+
 .lista-produtos{
-  color: black;
+  color: #5f3dc4;
 }
 
 .links ul{
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.75rem 1rem;
+  }
+
+  .links ul {
+    gap: 0.75rem;
+  }
+
+  a {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.95rem;
+  }
 }
 </style>
 

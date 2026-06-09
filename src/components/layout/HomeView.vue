@@ -202,16 +202,20 @@ img,
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 16px;
+  padding: 0.6rem 1.25rem;
   border-radius: 999px;
-  margin-top: 14px;
-  background: rgba(123, 81, 201, 0.12);
-  color: #4b2f88;
+  margin-top: 0.75rem;
+  background: rgba(123, 81, 201, 0.15);
+  color: #5f3dc4;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
 }
 
 .link-paginas:hover {
-  background: rgba(123, 81, 201, 0.18);
+  background: rgba(123, 81, 201, 0.25);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 720px) {
