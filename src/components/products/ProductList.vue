@@ -137,9 +137,14 @@ const produtosExibidos = computed(() => {
 <style scoped>
 .aventura {
   font-size: 1.8rem;
-  color: #3b1c75;
+  color: white;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #7b51c9, #5f3dc4);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(95, 61, 196, 0.2);
 }
 
 .caixa {
@@ -250,26 +255,4 @@ input:focus {
     font-size: 16px;
   }
 }
-</style>
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  }
-  .aventura{
-    font-size: 2rem;
-    
-  }
-  .pesquisa-autor{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  .barra-pesquisa{
-     display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  .mensagem{
-    text-align: center; 
-  }
 </style>

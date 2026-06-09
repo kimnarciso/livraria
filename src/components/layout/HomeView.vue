@@ -34,11 +34,11 @@ const fraseAtual = ref(
 
 <template>
    <div>
-      <h1>
+      <h1 style="background: linear-gradient(135deg, rgba(123, 81, 201, 0.15) 0%, rgba(95, 61, 196, 0.1) 100%); padding: 1.5rem; border-radius: 20px; border-left: 4px solid #7b51c9; color: #3b1c75; margin-bottom: 2rem;">
          Seja bem vindo!
       </h1>
    </div>
-   <h2>
+   <h2 style="background: rgba(123, 81, 201, 0.12); padding: 1rem 1.5rem; border-radius: 16px; margin-bottom: 1.5rem; border-bottom: 3px solid #7b51c9;">
       Nossos principais autores
    </h2>
 
@@ -173,9 +173,13 @@ const fraseAtual = ref(
 .destaques {
   text-align: center;
   font-size: 1.55rem;
-  padding-bottom: 12px;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0 1.5rem 0;
   color: #4b2f88;
   font-weight: 700;
+  background: rgba(123, 81, 201, 0.12);
+  border-radius: 16px;
+  border-bottom: 3px solid #7b51c9;
 }
 
 h2 {
@@ -204,7 +208,7 @@ img,
   align-items: center;
   padding: 0.6rem 1.25rem;
   border-radius: 999px;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
   background: rgba(123, 81, 201, 0.15);
   color: #5f3dc4;
   text-decoration: none;
@@ -225,7 +229,25 @@ img,
 
   .pequenos,
   .princi {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+
+  .pequenos-autores,
+  .lista-autores,
+  .desta {
+    padding: 1rem;
+  }
+
+  img,
+  .capalivro,
+  .imgpeq {
+    height: 180px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 0.75rem;
   }
 }
 </style>

@@ -136,6 +136,7 @@ button:hover {
   align-items: center;
   z-index: 1000;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .modal {
@@ -147,6 +148,7 @@ button:hover {
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: absolute;
 }
 
 .modal p {
@@ -174,6 +176,39 @@ button:hover {
 
   .modal {
     padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .produto-card {
+    padding: 0.75rem;
+    border: 1.5px solid rgba(123, 81, 201, 0.2);
+  }
+
+  .capa-livro {
+    height: 150px;
+  }
+
+  .produto-card h2 {
+    font-size: 0.95rem;
+  }
+
+  .produto-card h3 {
+    font-size: 0.85rem;
+  }
+
+  .preco {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+  }
+
+  .modal {
+    max-width: 90%;
   }
 }
 </style>
