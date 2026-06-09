@@ -247,6 +247,190 @@ const produtos = [
     "categoria": "Drama",
     "detalhes": "Editora:  Intrínseca, Data da publicação : 31 janeiro 2013, Número de páginas  :320 páginas, Idade de leitura  : 10 anos e acima"
  }
+ ,
+{
+  "id": 25,
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "resumo": "Bentinho relembra sua história de amor com Capitu e questiona a fidelidade da mulher que marcou sua vida.",
+  "preco": 29.90,
+  "capa": "public/imagem/dom-casmurro.jpg",
+  "categoria": "Clássicos"
+},
+{
+  "id": 26,
+  "titulo": "Jantar Secreto",
+  "autor": "Raphael Montes",
+  "resumo": "Quatro amigos se envolvem em um negócio sombrio que foge completamente do controle.",
+  "preco": 49.90,
+  "capa": "public/imagem/jantar-secreto.jpg",
+  "categoria": "Suspense/Terror"
+},
+{
+  "id": 27,
+  "titulo": "Convergente",
+  "autor": "Veronica Roth",
+  "resumo": "Tris e seus amigos descobrem a verdade sobre o mundo além das facções.",
+  "preco": 39.90,
+  "capa": "public/imagem/convergente.jpg",
+  "categoria": "Ficção Científica"
+},
+{
+  "id": 28,
+  "titulo": "Insurgente",
+  "autor": "Veronica Roth",
+  "resumo": "Após os acontecimentos de Divergente, Tris enfrenta conflitos e segredos que podem mudar tudo.",
+  "preco": 39.90,
+  "capa": "public/imagem/insurgente.jpg",
+  "categoria": "Ficção Científica"
+},
+{
+  "id": 29,
+  "titulo": "Harry Potter e a Pedra Filosofal",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry descobre que é um bruxo e inicia sua jornada em Hogwarts.",
+  "preco": 44.90,
+  "capa": "public/imagem/pedra-filosofal.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 30,
+  "titulo": "Harry Potter e a Câmara Secreta",
+  "autor": "J. K. Rowling",
+  "resumo": "Estranhos ataques acontecem em Hogwarts enquanto Harry investiga a Câmara Secreta.",
+  "preco": 44.90,
+  "capa": "public/imagem/camara-secreta.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 31,
+  "titulo": "Harry Potter e o Prisioneiro de Azkaban",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry descobre segredos sobre seu passado enquanto um perigoso fugitivo escapa de Azkaban.",
+  "preco": 44.90,
+  "capa": "public/imagem/prisioneiro-de-azkaban.jpeg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 32,
+  "titulo": "Harry Potter e o Cálice de Fogo",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry participa do Torneio Tribruxo e enfrenta desafios mortais.",
+  "preco": 44.90,
+  "capa": "public/imagem/calice-de-fogo.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 33,
+  "titulo": "Harry Potter e a Ordem da Fênix",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry lidera a resistência contra as forças que tentam negar o retorno de Voldemort.",
+  "preco": 44.90,
+  "capa": "public/imagem/ordem-da-fenix.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 34,
+  "titulo": "Harry Potter e o Enigma do Príncipe",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry descobre informações importantes sobre Voldemort enquanto se prepara para a batalha final.",
+  "preco": 44.90,
+  "capa": "public/imagem/enigma-do-principe.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 35,
+  "titulo": "Harry Potter e as Relíquias da Morte",
+  "autor": "J. K. Rowling",
+  "resumo": "Harry, Rony e Hermione partem em uma missão decisiva para derrotar Voldemort.",
+  "preco": 44.90,
+  "capa": "public/imagem/reliquias-da-morte.jpg",
+  "categoria": "Fantasia"
+},
+{
+  "id": 36,
+  "titulo": "Maze Runner: Prova de Fogo",
+  "autor": "James Dashner",
+  "resumo": "Thomas e os clareanos enfrentam um deserto mortal repleto de novos desafios.",
+  "preco": 34.90,
+  "capa": "public/imagem/prova-de-fogo.jpg",
+  "categoria": "Distopia"
+},
+{
+  "id": 37,
+  "titulo": "Maze Runner: A Cura Mortal",
+  "autor": "James Dashner",
+  "resumo": "A batalha final contra a organização C.R.U.E.L. coloca o futuro da humanidade em jogo.",
+  "preco": 34.90,
+  "capa": "public/imagem/a-cura-mortal.jpg",
+  "categoria": "Distopia"
+},
+{
+  "id": 38,
+  "titulo": "O Acordo",
+  "autor": "Elle Kennedy",
+  "resumo": "Um acordo inesperado aproxima Hannah e Garrett de uma forma que nenhum dos dois imaginava.",
+  "preco": 39.90,
+  "capa": "public/imagem/o-acordo-nova-edicao.jpg",
+  "categoria": "Romance"
+},
+{
+  "id": 39,
+  "titulo": "O Erro",
+  "autor": "Elle Kennedy",
+  "resumo": "Logan tenta conquistar a garota certa enquanto lida com os próprios conflitos.",
+  "preco": 39.90,
+  "capa": "public/imagem/o-erro-nova-edicao.jpg",
+  "categoria": "Romance"
+},
+{
+  "id": 40,
+  "titulo": "O Jogo",
+  "autor": "Elle Kennedy",
+  "resumo": "Dean e Allie vivem um relacionamento cheio de química, humor e desafios.",
+  "preco": 39.90,
+  "capa": "public/imagem/o-jogo.jpg",
+  "categoria": "Romance"
+},
+{
+  "id": 41,
+  "titulo": "O Legado",
+  "autor": "Elle Kennedy",
+  "resumo": "Os casais da série retornam para mostrar como suas histórias continuaram após a faculdade.",
+  "preco": 39.90,
+  "capa": "public/imagem/o-legado-nova-edicao.jpg",
+  "categoria": "Romance"
+}
+,
+{
+  "id": 42,
+  "titulo": "A Conquista",
+  "autor": "Elle Kennedy",
+  "resumo": "Um romance universitário envolvente que mistura rivalidade, amizade e paixão inesperada.",
+  "preco": 39.90,
+  "capa": "public/imagem/a-conquista.jpg",
+  "categoria": "Romance"
+}
+,
+{
+  "id": 43,
+  "titulo": "Vermelho, Branco e Sangue Azul",
+  "autor": "Casey McQuiston",
+  "resumo": "O filho da presidente dos Estados Unidos e um príncipe britânico transformam uma rivalidade pública em algo muito maior.",
+  "preco": 44.90,
+  "capa": "public/imagem/vermelho-branco-e-sangue-azul.jpg",
+  "categoria": "Romance"
+}
+,
+{
+  "id": 44,
+  "titulo": "Os sete maridos de Evelyn Hugo",
+  "autor": "Taylor Jenkins Reid",
+  "resumo": "Uma estrela de Hollywood revela os segredos de sua vida, carreira e de seus sete casamentos.",
+  "preco": 49.90,
+  "capa": "public/imagem/os-sete-maridos.jpg",
+  "categoria": "Romance"
+}
 ]
 
 export { produtos as listaProdutos }
@@ -255,7 +439,9 @@ export { produtos as listaProdutos }
       {
     "id": 1,
     "nome": "Suzzane Collins ",
+
     "imagem": "  /imagem/suzanne.png ",
+
     "resumo": " Suzanne Collins é uma escritora norte-americana conhecida mundialmente pela série Jogos Vorazes, uma das distopias mais populares da literatura jovem. Antes de se tornar romancista, trabalhou escrevendo roteiros para programas infantis de televisão. Seu maior sucesso veio com a história de Katniss Everdeen, que mistura crítica social, política e sobrevivência em uma sociedade controlada pela Capital. Além da trilogia original, Collins expandiu o universo com livros como A Cantiga dos Pássaros e das Serpentes e Amanhecer na Colheita. Suas obras são conhecidas pela tensão psicológica, personagens marcantes e críticas à desigualdade social.",
     "link": "https://www.suzannecollinsbooks.com"
    
@@ -263,6 +449,7 @@ export { produtos as listaProdutos }
    {
     "id": 2,
     "nome": "Rick Riordan ",
+
     "imagem": " /imagem/riordan.png ",
     "resumo": "Rick Riordan é um escritor norte-americano famoso por transformar a mitologia grega em aventuras modernas cheias de humor e publicação. Ex-professor de história, Riordan criou a série Percy Jackson e os Olimpianos para incentivar o filho a gostar de leitura. O sucesso foi enorme, levando à cripublicação de diversos universos inspirados em mitologias diferentes, como romana, egípcia e nórdica. Entre suas obras mais conhecidas estão O Ladrão de Raios, A Maldição do Titã e Os Heróis do Olimpo. Seus livros conquistaram milhões de leitores jovens ao combinar aventura, fantasia e referências mitológicas de forma divertida.",
     "link": "https://rickriordan.com"
@@ -270,6 +457,7 @@ export { produtos as listaProdutos }
      {
     "id": 3,
     "nome": "Holly Black ",
+
     "imagem": "/imagem/holly.png  ",
     "resumo": " Holly Black é uma escritora norte-americana reconhecida principalmente por seus livros de fantasia envolvendo fadas, magia e intrigas políticas. Seu grande destaque é a série O Povo do Ar, que inclui títulos como O Príncipe Cruel e O Rei Perverso. Suas histórias costumam apresentar protagonistas inteligentes, romances intensos e disputas pelo poder em mundos sombrios e fascinantes. Holly Black também escreveu outras obras populares de fantasia urbana e juvenil, tornando-se uma das autoras mais influentes do gênero na atualidade.",
     "link": "https://www.wook.pt/autor/holly-black/22673?srsltid=AfmBOoriwoR5TzwYCbQ12DGtIMABbxBSXlbfYZS11ZUuE2RiKhg-fgJv"
@@ -332,36 +520,43 @@ export { produtos as listaProdutos }
    {
     "id": 2,
      "nome": "Raphael Montes",
-    "resumo": "Raphael Montes é um escritor brasileiro conhecido principalmente por suas obras de suspense, terror e investigpublicação criminal. Nascido no Rio de Janeiro, ganhou destaque ainda jovem ao lançar livros com histórias sombrias e cheias de reviravoltas psicológicas. Seu estilo mistura violência, mistério e crítica social, tornando-o um dos autores contemporâneos mais populares do gênero no Brasil.",
-    "imagem": "/imagem/montes.png",
+    "resumo": "Raphael Montes é um escritor brasileiro conhecido principalmente por suas obras de suspense, terror e investigação criminal. Nascido no Rio de Janeiro, ganhou destaque ainda jovem ao lançar livros com histórias sombrias e cheias de reviravoltas psicológicas. Seu estilo mistura violência, mistério e crítica social, tornando-o um dos autores contemporâneos mais populares do gênero no Brasil.",
+    "imagem": "public/imagem/raphael.webp",
+
     "link": "https://www.raphaelmontes.com.br"
   },
   {
     "id": 3,
      "nome": "Stephen King",
     "resumo": "Stephen King é um dos escritores de terror mais famosos do mundo. Nascido nos Estados Unidos, construiu uma carreira gigantesca escrevendo histórias de suspense, horror psicológico e fantasia sombria. Suas obras frequentemente exploram medo, traumas e o lado obscuro da mente humana. Muitos de seus livros foram adaptados para o cinema e televisão.",
-    "imagem": "/imagem/king.png",
+    "imagem": "public/imagem/stephen.jpg",
+
     "link": "https://stephenking-com.translate.goog/the-author/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc"
   },
    {
     "id": 4,
      "nome": "George Orwell",
+
     "resumo": "George Orwell foi um escritor e jornalista britânico famoso por suas críticas políticas e sociais. Suas obras discutem autoritarismo, manipulpublicação e desigualdade, tornando-se referências mundiais da literatura distópica. Orwell usava suas histórias para alertar sobre os perigos do controle excessivo do Estado e da perda da liberdade individual.",
     "imagem": "/imagem/george.png",
+
     "link": "https://www.casadosaber.com.br/autores/george-orwell"
   },
    {
     "id": 5,
      "nome": "Veronica Roth",
-    "resumo": "Veronica Roth é uma escritora norte-americana conhecida mundialmente pela série distópica Divergente. Ela começou a escrever ainda jovem e alcançou enorme sucesso com histórias voltadas ao público jovem adulto, misturando publicação, romance e crítica social. Suas obras abordam identidade, escolhas e liberdade em sociedades controladas.",
-    "imagem": "/imagem/roth.png",
+
+    "resumo": "Veronica Roth é uma escritora norte-americana conhecida mundialmente pela série distópica Divergente. Ela começou a escrever ainda jovem e alcançou enorme sucesso com histórias voltadas ao público jovem adulto, misturando ação, romance e crítica social. Suas obras abordam identidade, escolhas e liberdade em sociedades controladas.",
+    "imagem": "public/imagem/veronica.jpeg",
     "link": "https://veronicarothbooks.com" 
   },
   {
     "id": 5,
-     "nome": "Victoria Averyard",
+     "nome": "Victoria Aveyard",
     "resumo": "Victoria Aveyard é uma escritora norte-americana conhecida principalmente por suas obras de fantasia e distopia voltadas ao público jovem adulto. Ela ganhou fama mundial com a série A Rainha Vermelha, que mistura realeza, poderes sobrenaturais, desigualdade social e disputas políticas. Antes de se tornar escritora, estudou roteiro e cinema, o que influencia bastante seu estilo dinâmico e cheio de reviravoltas. Seus livros costumam explorar temas como poder, traição, revolução e identidade.",
-    "imagem": "/imagem/vic.png",
+
+    "imagem": "public/imagem/victoria.webp",
+
     "link": "https://videeditorial.com.br/index.php?route=product/author&author_id=7487"
   },
   
