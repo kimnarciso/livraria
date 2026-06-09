@@ -211,7 +211,8 @@ const produtos = [
     "resumo": "Uma jovem enfrenta mistérios e perigos enquanto tenta sobreviver em meio à escuridão e ao desconhecido.",
     "preco": 57.63,
     "capa": "/imagem/uma-mulher-no-escuro.jpg",
-    "categoria": "Suspense/Terror"
+    "categoria": "Suspense/Terror",
+    "detalhes": "Editora:  Companhia das Letras, Data da publicação : 31 maio 2019, Número de páginas  : 256 páginas, Idade de leitura  : 16 anos e acima"
   }
  ,
  {
@@ -221,7 +222,8 @@ const produtos = [
     "resumo": "Preso em um labirinto mortal, Thomas precisa encontrar uma saída antes que seja tarde demais.",
     "preco": 32.14,
     "capa": "/imagem/maze-runner.jpg",
-    "categoria": "Distopia"
+    "categoria": "Distopia",
+    "detalhes": "Editora: Plataforma 21, Data da publicação : 28 julho 2010, Número de páginas  : 428 páginas, Idade de leitura  : 14 anos e acima"
  }
  ,
  {
@@ -231,7 +233,8 @@ const produtos = [
     "resumo": "Uma emocionante história de amizade e inocência durante um dos períodos mais sombrios da história.",
     "preco": 42.00,
     "capa": "/imagem/o-menino-do-pijama-listrado.jpg",
-    "categoria": "Drama"
+    "categoria": "Drama",
+    "detalhes": "Editora: Seguinte, Data da publicação : 11 outubro 2007, Número de páginas  :192 páginas, Idade de leitura  : 12 anos e acima"
  }
   ,
  {
@@ -241,7 +244,8 @@ const produtos = [
     "resumo": "A história de Auggie Pullman, um garoto com uma condição facial rara que enfrenta os desafios de frequentar a escola pela primeira vez.",
     "preco": 38.41,
     "capa": "/imagem/extraordinario.jpg",
-    "categoria": "Drama"
+    "categoria": "Drama",
+    "detalhes": "Editora:  Intrínseca, Data da publicação : 31 janeiro 2013, Número de páginas  :320 páginas, Idade de leitura  : 10 anos e acima"
  }
 ]
 
