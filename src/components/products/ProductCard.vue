@@ -84,7 +84,7 @@ const mostrarDetalhes = ref(false)
 }
 
 .produto-card h3 {
-  color: #5f3dc4;
+  color: #3b1a76;
   font-size: 0.9rem;
   margin: 0 0 0.75rem 0;
   font-weight: 500;
@@ -100,7 +100,7 @@ const mostrarDetalhes = ref(false)
 
 .preco {
   font-weight: 700;
-  color: #7b51c9;
+  color: #3b1a76;
   font-size: 1.15rem;
   margin: 0.75rem 0 1.25rem 0;
 }
@@ -110,13 +110,14 @@ button {
   padding: 0.75rem 1rem;
   border: none;
   border-radius: 999px;
-  background: linear-gradient(135deg, #7b51c9, #5f3dc4);
+  background: linear-gradient(135deg, #5f3dc4, #3b1a76);
   color: white;
   cursor: pointer;
   font-weight: 600;
   font-size: 0.9rem;
   transition: all 0.3s ease;
   margin-top: 0.6rem;
+  margin-top: auto;
 }
 
 button:hover {
@@ -183,27 +184,29 @@ button:hover {
   .produto-card {
     padding: 0.75rem;
     border: 1.5px solid rgba(123, 81, 201, 0.2);
+    max-width: 180px;
+    margin: 0 auto;
   }
 
   .capa-livro {
-    height: 150px;
+    height: 140px;
   }
 
   .produto-card h2 {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .produto-card h3 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .preco {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   button {
     padding: 0.6rem 0.8rem;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     margin-top: 0.4rem;
   }
 

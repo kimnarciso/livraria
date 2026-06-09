@@ -72,7 +72,7 @@ img {
 }
 
 .info p:last-child {
-  color: #7b51c9;
+  color: #3b1a76;
   font-weight: 600;
 }
 
@@ -106,7 +106,7 @@ img {
   min-width: 30px;
   text-align: center;
   font-weight: 600;
-  color: #5f3dc4;
+  color: #3b1a76;
 }
 
 .remover {
@@ -127,7 +127,7 @@ img {
 
 .subtotal {
   font-weight: 700;
-  color: #7b51c9;
+  color: #3b1a76;
   font-size: 1.05rem;
 }
 

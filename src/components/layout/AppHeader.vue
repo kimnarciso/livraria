@@ -42,7 +42,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: #5f3dc4;
+  color: #3b1a76;
   font-weight: 500;
   padding: 0.75rem 1.25rem;
   border-radius: 999px;
@@ -56,7 +56,7 @@ a:hover {
 
 .router-link-active {
   background: rgba(123, 81, 201, 0.2);
-  color: #3b1c75;
+  color: #2f1747;
   font-weight: 600;
 }
 

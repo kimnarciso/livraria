@@ -157,7 +157,7 @@ select {
   border: 2px solid rgba(123, 81, 201, 0.25);
   border-radius: 999px;
   background: white;
-  color: #5f3dc4;
+  color: #3b1a76;
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -208,7 +208,7 @@ input:focus {
 }
 
 .mensagem {
-  color: #7b51c9;
+  color: #3b1a76;
   font-style: italic;
   margin: 0.75rem 0;
 }

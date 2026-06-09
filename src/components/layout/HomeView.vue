@@ -141,7 +141,7 @@ const fraseAtual = ref(
   gap: 24px;
 }
 
-.pequenos-autores,
+.pequeños-autores,
 .lista-autores,
 .desta {
   border: 1px solid rgba(123, 81, 201, 0.16);
@@ -150,6 +150,9 @@ const fraseAtual = ref(
   background: #ffffff;
   box-shadow: 0 22px 45px rgba(75, 47, 136, 0.08);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .frasedia {
@@ -208,9 +211,9 @@ img,
   align-items: center;
   padding: 0.6rem 1.25rem;
   border-radius: 999px;
-  margin-top: 0.5rem;
+  margin-top: auto;
   background: rgba(123, 81, 201, 0.15);
-  color: #5f3dc4;
+  color: #3b1a76;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
@@ -229,25 +232,32 @@ img,
 
   .pequenos,
   .princi {
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   .pequenos-autores,
   .lista-autores,
   .desta {
-    padding: 1rem;
+    padding: 0.75rem;
   }
 
   img,
   .capalivro,
   .imgpeq {
-    height: 180px;
+    height: 140px;
   }
 
   h2 {
     font-size: 1rem;
     margin-top: 0.75rem;
+  }
+
+  .link-paginas {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
   }
 }
 </style>
