@@ -125,6 +125,13 @@ const fraseAtual = ref(
 </template>
 
 <style scoped>
+.peqat{
+  padding: 2vw 0 5vw 0 ;
+  font-size: 1.4rem;
+  color: #0a0520;
+  text-align: center;
+  font-weight: 500;
+}
 .imgpeq {
   width: 100%;
   height: 240px;
@@ -236,8 +243,8 @@ img,
   height: 280px;
   object-fit: cover;
   border-radius: 18px;
+  
 }
-
 .desta .capalivro {
   object-fit: contain;
   height: auto;
