@@ -236,11 +236,11 @@ const fraseAtual = ref(
 
 <template>
    <div>
-      <h1>
+      <h1 style="background: linear-gradient(135deg, rgba(123, 81, 201, 0.15) 0%, rgba(95, 61, 196, 0.1) 100%); padding: 1.5rem; border-radius: 20px; border-left: 4px solid #7b51c9; color: #3b1c75; margin-bottom: 2rem;">
          Seja bem vindo!
       </h1>
    </div>
-   <h2>
+   <h2 style="background: rgba(123, 81, 201, 0.12); padding: 1rem 1.5rem; border-radius: 16px; margin-bottom: 1.5rem; border-bottom: 3px solid #7b51c9;">
       Nossos principais autores
    </h2>
 
@@ -327,80 +327,203 @@ const fraseAtual = ref(
 </template>
 
 <style scoped>
-   .imgpeq{
-      width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 8px;
-   }
-   
-   .pequenos{
-       display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax( 220px, 330px));
-  justify-content: center;
-  gap: 24px;
-   }
-   .pequenos-autores{
-      border: 1px solid #ccc;
-  padding: 16px;
-  border-radius: 8px;
-  width: 280px;
+.peqat{
+  padding: 2vw 0 5vw 0 ;
+  font-size: 1.4rem;
+  color: #0a0520;
   text-align: center;
-  background: white;
-   }
-   .frasedia{
-      text-align: center;
-   }
-   .nova{
-      padding: 2vw;
-   }
-   .destaques{
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 1vw;
-   }
-   .lista-destaques{
-      padding: 3vw;
-      display: grid;
-     grid-template-columns: repeat(5, 1fr);
-     gap: 20px;
-   }
-   h2{
-      text-align: center;
-   }
-.princi{
- 
+  font-weight: 500;
+}
+.imgpeq {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.pequenos,
+.princi,
+.lista-destaques {
   display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax(220px, 330px));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-content: center;
   gap: 24px;
 }
-.lista-autores{
-  border: 1px solid #ccc;
-  padding: 16px;
-  border-radius: 8px;
-  width: 280px;
+
+.pequeños-autores,
+.lista-autores,
+.desta {
+  border: 1px solid rgba(123, 81, 201, 0.16);
+  padding: 20px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 22px 45px rgba(75, 47, 136, 0.08);
   text-align: center;
-  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pequenos-autores,
+.lista-autores,
+.desta,
+.pequenos-autores,
+.lista-autores,
+.desta {
+  gap: 12px;
+}
+
+.pequenos-autores,
+.lista-autores,
+.desta {
+  gap: 12px;
+}
+
+.lista-autores p,
+.pequenos-autores p,
+.desta p {
+  color: #0a0520;
+  margin: 0;
+}
+
+.resumo-autor {
+  color: #0a0520;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.destaque-autor {
+  color: #0a0520;
+  margin-bottom: 0.6rem;
+}
+
+.frasedia {
+  text-align: center;
+  padding: 28px 20px;
+  margin: 36px 0;
+  border-radius: 24px;
+  background: rgba(123, 81, 201, 0.08);
+}
+
+.fraseatual {
+  color: #0a0520;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.nova {
+  padding: 0;
+}
+
+.destaques {
+  text-align: center;
+  font-size: 1.55rem;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0 1.5rem 0;
+  color: #0a0520;
+  font-weight: 700;
+  background: rgba(123, 81, 201, 0.12);
+  border-radius: 16px;
+  border-bottom: 3px solid #7b51c9;
+}
+
+h2 {
+  text-align: center;
+  color: #3b1c75;
+  font-size: 1.25rem;
+  margin-top: 12px;
+}
+
+.lista-autores,
+.pequenos-autores {
+  width: auto;
+}
+
+img,
+.capalivro {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 18px;
   
 }
-
-img{
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-.capalivro{
-   width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-h2{
-  font-size: 20px;
-  margin-top: 10px;
+.desta .capalivro {
+  object-fit: contain;
+  height: auto;
+  max-height: 240px;
+  background: transparent;
 }
 
+.link-paginas {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  margin-top: auto;
+  background: rgba(123, 81, 201, 0.15);
+  color: #3b1a76;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
 
+.link-paginas:hover {
+  background: rgba(123, 81, 201, 0.25);
+  transform: translateY(-2px);
+}
+
+.desta button {
+  margin-top: auto;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: rgba(123, 81, 201, 0.12);
+  color: #3b1a76;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.destaque-autor {
+  color: #0a0520;
+}
+
+@media (max-width: 720px) {
+  .lista-destaques {
+    grid-template-columns: 1fr;
+  }
+
+  .pequenos,
+  .princi {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .pequenos-autores,
+  .lista-autores,
+  .desta {
+    padding: 0.75rem;
+  }
+
+  img,
+  .capalivro,
+  .imgpeq {
+    height: 180px;
+    object-fit: contain;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  .link-paginas {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    margin-top: auto;
+  }
+}
 </style>
