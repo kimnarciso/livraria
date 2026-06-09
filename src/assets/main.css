@@ -5,26 +5,102 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 32px;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  color: #5f3dc4;
+  transition: 0.3s ease;
   padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+a:hover,
+.green:hover {
+  color: #3f1a76;
+}
+
+header {
+  background: rgba(123, 81, 201, 0.1);
+  border: 1px solid rgba(123, 81, 201, 0.18);
+  border-radius: 28px;
+  padding: 1.75rem 1.5rem;
+  margin-bottom: 2rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+header .logo {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 0.75rem;
+  box-shadow: 0 14px 34px rgba(95, 61, 196, 0.14);
+}
+
+header .wrapper {
+  width: 100%;
+  max-width: 720px;
+}
+
+main {
+  padding: 0.5rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem 1.5rem;
+  border-top: 1px solid rgba(123, 81, 201, 0.16);
+  text-align: center;
+  color: #5f3dc4;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+button,
+button[type="button"],
+button[type="submit"] {
+  cursor: pointer;
+  border: none;
+  border-radius: 999px;
+  padding: 0.95rem 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #7b51c9, #5f3dc4);
+  box-shadow: 0 12px 28px rgba(95, 61, 196, 0.18);
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #8d62d9, #6f49d5);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 24px;
+}
+
+@media (max-width: 720px) {
+  #app {
+    padding: 1.25rem;
+  }
+
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  footer {
+    padding: 1.25rem 1rem;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
-    place-items: center;
+    display: block;
   }
 
   #app {
