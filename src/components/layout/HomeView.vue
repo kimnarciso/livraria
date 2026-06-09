@@ -155,7 +155,6 @@ const fraseAtual = ref(
   height: 100%;
 }
 
-/* Ensure correct gap between elements inside cards so buttons don't stick to text */
 .pequenos-autores,
 .lista-autores,
 .desta,
@@ -165,7 +164,6 @@ const fraseAtual = ref(
   gap: 12px;
 }
 
-/* Also cover the correctly spelled class used in template */
 .pequenos-autores,
 .lista-autores,
 .desta {
@@ -185,7 +183,6 @@ const fraseAtual = ref(
   margin-bottom: 0.75rem;
 }
 
-/* make destaque author text have a little space before the button */
 .destaque-autor {
   color: #0a0520;
   margin-bottom: 0.6rem;
@@ -241,7 +238,6 @@ img,
   border-radius: 18px;
 }
 
-/* For destaque cards, avoid cropping: use contain and limit max-height so full cover shows */
 .desta .capalivro {
   object-fit: contain;
   height: auto;
@@ -269,7 +265,6 @@ img,
   transform: translateY(-2px);
 }
 
-/* Ensure 'Visualizar livro' button in destaque cards aligns to bottom and has small top spacing */
 .desta button {
   margin-top: auto;
   padding: 0.55rem 1rem;
