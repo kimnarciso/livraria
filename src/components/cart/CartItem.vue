@@ -36,58 +36,134 @@ defineEmits(['aumentar', 'diminuir', 'remover'])
 <style scoped>
 .cart-item {
   display: grid;
-  grid-template-columns: 80px 1fr auto auto auto;
-  gap: 16px;
+  grid-template-columns: 90px 1fr auto auto auto;
+  gap: 1.25rem;
   align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 12px;
+  border: 2px solid rgba(123, 81, 201, 0.2);
+  border-radius: 16px;
+  padding: 1.25rem;
   background: white;
+  box-shadow: 0 4px 12px rgba(95, 61, 196, 0.08);
 }
 
 img {
-  width: 70px;
-  height: 100px;
+  width: 90px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 12px;
 }
 
-.info h3,
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.info h3 {
+  color: #3b1c75;
+  margin: 0;
+  font-size: 1rem;
+}
+
 .info p {
-  margin: 4px 0;
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.info p:last-child {
+  color: #3b1a76;
+  font-weight: 600;
 }
 
 .quantidade {
   display: flex;
   align-items: center;
-  gap: 8px;
-}
-
-.quantidade button,
-.remover {
-  border: none;
-  border-radius: 6px;
-  padding: 8px 10px;
-  cursor: pointer;
+  gap: 0.75rem;
+  border: 2px solid rgba(123, 81, 201, 0.2);
+  border-radius: 999px;
+  padding: 0.25rem;
+  background: rgba(123, 81, 201, 0.05);
 }
 
 .quantidade button {
-  background: #8a00db;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  background: #7b51c9;
   color: white;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.quantidade button:hover {
+  background: #5f3dc4;
+  transform: scale(1.1);
+}
+
+.quantidade span {
+  min-width: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: #3b1a76;
 }
 
 .remover {
-  background: #ff4d4d;
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff6b6b, #ff4d4d);
   color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.remover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(255, 77, 77, 0.3);
 }
 
 .subtotal {
-  font-weight: bold;
+  font-weight: 700;
+  color: #3b1a76;
+  font-size: 1.05rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .cart-item {
+    grid-template-columns: 80px 1fr 80px;
+    gap: 1rem;
+  }
+
+  .quantidade {
+    order: 4;
+    grid-column: 3;
+  }
+
+  .subtotal {
+    order: 5;
+    grid-column: 3;
+  }
+
+  .remover {
+    order: 6;
+    grid-column: 3;
+  }
+}
+
+@media (max-width: 600px) {
   .cart-item {
     grid-template-columns: 80px 1fr;
+    gap: 0.75rem;
+  }
+
+  .quantidade,
+  .subtotal,
+  .remover {
+    grid-column: 1 / -1;
+    order: unset;
   }
 }
 </style>

@@ -52,83 +52,166 @@ const mostrarDetalhes = ref(false)
 
 <style scoped>
 .produto-card {
-  border: 1px solid #ccc;
-  padding: 16px;
-  border-radius: 8px;
-  width: 220px;
+  border: 2px solid rgba(123, 81, 201, 0.2);
+  padding: 1.25rem;
+  border-radius: 20px;
   background: white;
-}
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(95, 61, 196, 0.1);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.modal {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 500px;
-  max-width: 90%;
-}
-.modal img {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
+
+.produto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(95, 61, 196, 0.18);
 }
 
 .capa-livro {
-  width: 180px;
-  height: 270px;
+  width: 100%;
+  height: 240px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+.produto-card h2 {
+  color: #3b1c75;
+  font-size: 1.05rem;
+  margin: 0.75rem 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+.produto-card h3 {
+  color: #3b1a76;
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: 500;
+}
+
+.produto-card p {
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
 }
 
 .preco {
-  font-weight: bold;
-  color: #8a00db;
+  font-weight: 700;
+  color: #3b1a76;
+  font-size: 1.15rem;
+  margin: 0.75rem 0 1.25rem 0;
 }
 
 button {
   width: 100%;
-  padding: 10px;
+  padding: 0.75rem 1rem;
   border: none;
-  border-radius: 8px;
-  background: #8a00db;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #5f3dc4, #3b1a76);
   color: white;
   cursor: pointer;
   font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  margin-top: 0.6rem;
+  margin-top: auto;
 }
+
+button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(95, 61, 196, 0.25);
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
+  padding: 1rem;
+  overflow: hidden;
 }
+
 .modal {
   background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 500px;
-  max-width: 90%;
+  padding: 2rem;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: absolute;
 }
+
+.modal p {
+  color: #333;
+  margin: 0.75rem 0;
+  line-height: 1.6;
+}
+
 .modal img {
   width: 100%;
   max-height: 300px;
   object-fit: cover;
+  border-radius: 16px;
+  margin: 1rem 0;
 }
 
-button:hover {
-  background: #6d00ad;
+@media (max-width: 768px) {
+  .produto-card {
+    padding: 1rem;
+  }
+
+  .capa-livro {
+    height: 200px;
+  }
+
+  .modal {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .produto-card {
+    padding: 0.75rem;
+    border: 1.5px solid rgba(123, 81, 201, 0.2);
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .capa-livro {
+    height: 140px;
+  }
+
+  .produto-card h2 {
+    font-size: 0.9rem;
+  }
+
+  .produto-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .preco {
+    font-size: 0.95rem;
+  }
+
+  button {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .modal {
+    max-width: 90%;
+  }
 }
 </style>

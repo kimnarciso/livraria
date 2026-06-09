@@ -50,44 +50,86 @@ import {
 
 <style scoped>
 .carrinho-pagina {
-  padding: 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
 h1 {
   text-align: center;
-  color: #8a00db;
+  color: #3b1c75;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .carrinho-vazio {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 3rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(123, 81, 201, 0.08) 0%, rgba(95, 61, 196, 0.04) 100%);
+  border-radius: 20px;
+  border: 2px solid rgba(123, 81, 201, 0.15);
+}
+
+.carrinho-vazio p {
+  color: #5f3dc4;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 
 .carrinho-vazio button {
-  padding: 10px 18px;
+  padding: 0.9rem 1.8rem;
   border: none;
-  border-radius: 8px;
-  background: #8a00db;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #7b51c9, #5f3dc4);
   color: white;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.carrinho-vazio button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(95, 61, 196, 0.3);
 }
 
 .carrinho-conteudo {
   display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 24px;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
   align-items: start;
 }
 
 .itens {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 1rem;
 }
 
 @media (max-width: 900px) {
   .carrinho-conteudo {
     grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .carrinho-pagina {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .carrinho-vazio {
+    padding: 1.5rem;
   }
 }
 </style>
