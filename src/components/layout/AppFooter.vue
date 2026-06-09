@@ -119,8 +119,8 @@ a:hover {
 
 @media (max-width: 768px) {
   footer {
-    padding: 2.5rem 1rem 1.5rem;
-    margin-top: 2rem;
+    padding: 1.25rem 0.75rem 1rem;
+    margin-top: 1.5rem;
   }
 
   .separado ul {
@@ -130,9 +130,9 @@ a:hover {
 
   .footer-info {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin: 0 auto 1.5rem;
-    padding-bottom: 1.5rem;
+    gap: 1rem;
+    margin: 0 auto 1rem;
+    padding-bottom: 1rem;
   }
 }
 </style>

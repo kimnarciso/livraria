@@ -66,7 +66,7 @@ function verMaisLivros() {
 }
 
 .cart-summary p {
-  color: #5f3dc4;
+  color: #0a0520;
   margin: 0.75rem 0;
   font-weight: 500;
 }

@@ -155,6 +155,42 @@ const fraseAtual = ref(
   height: 100%;
 }
 
+/* Ensure correct gap between elements inside cards so buttons don't stick to text */
+.pequenos-autores,
+.lista-autores,
+.desta,
+.pequenos-autores,
+.lista-autores,
+.desta {
+  gap: 12px;
+}
+
+/* Also cover the correctly spelled class used in template */
+.pequenos-autores,
+.lista-autores,
+.desta {
+  gap: 12px;
+}
+
+.lista-autores p,
+.pequenos-autores p,
+.desta p {
+  color: #0a0520;
+  margin: 0;
+}
+
+.resumo-autor {
+  color: #0a0520;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+/* make destaque author text have a little space before the button */
+.destaque-autor {
+  color: #0a0520;
+  margin-bottom: 0.6rem;
+}
+
 .frasedia {
   text-align: center;
   padding: 28px 20px;
@@ -164,7 +200,7 @@ const fraseAtual = ref(
 }
 
 .fraseatual {
-  color: #4b2f88;
+  color: #0a0520;
   font-weight: 600;
   margin-top: 12px;
 }
@@ -178,7 +214,7 @@ const fraseAtual = ref(
   font-size: 1.55rem;
   padding: 1rem 1.5rem;
   margin: 2rem 0 1.5rem 0;
-  color: #4b2f88;
+  color: #0a0520;
   font-weight: 700;
   background: rgba(123, 81, 201, 0.12);
   border-radius: 16px;
@@ -205,6 +241,14 @@ img,
   border-radius: 18px;
 }
 
+/* For destaque cards, avoid cropping: use contain and limit max-height so full cover shows */
+.desta .capalivro {
+  object-fit: contain;
+  height: auto;
+  max-height: 240px;
+  background: transparent;
+}
+
 .link-paginas {
   display: inline-flex;
   justify-content: center;
@@ -225,6 +269,22 @@ img,
   transform: translateY(-2px);
 }
 
+/* Ensure 'Visualizar livro' button in destaque cards aligns to bottom and has small top spacing */
+.desta button {
+  margin-top: auto;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: rgba(123, 81, 201, 0.12);
+  color: #3b1a76;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.destaque-autor {
+  color: #0a0520;
+}
+
 @media (max-width: 720px) {
   .lista-destaques {
     grid-template-columns: 1fr;
@@ -232,9 +292,9 @@ img,
 
   .pequenos,
   .princi {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 0.75rem;
-    max-width: 320px;
+    max-width: 400px;
     margin: 0 auto;
   }
 
@@ -247,7 +307,8 @@ img,
   img,
   .capalivro,
   .imgpeq {
-    height: 140px;
+    height: 180px;
+    object-fit: contain;
   }
 
   h2 {
@@ -258,6 +319,7 @@ img,
   .link-paginas {
     font-size: 0.8rem;
     padding: 0.5rem 1rem;
+    margin-top: auto;
   }
 }
 </style>
