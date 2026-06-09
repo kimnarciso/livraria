@@ -5,7 +5,7 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Em uma sociedade cruel, Katniss precisa lutar pela própria vida em um jogo mortal.",
     "preco": 75.90,
-    "capa": "public/imagem/capa-jogos_vorazes.jpg",
+    "capa": "/imagem/capa-jogos_vorazes.jpg",
     "categoria": "Distopia",
     "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  :  400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -15,7 +15,7 @@ const produtos = [
     "autor": "Victoria Aveyard ",
     "resumo": " Em um reino dividido pelo sangue, uma garota comum descobre um poder capaz de mudar tudo.",
     "preco": 54.99,
-    "capa": "public/imagem/a-rainha_vermelha.jpg",
+    "capa": "/imagem/a-rainha_vermelha.jpg",
     "categoria": "Fantasia",
     "detalhes": "Editora: Seguinte, Data da publicação : 9 junho 2015, Número de páginas  :  424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -25,7 +25,7 @@ const produtos = [
     "autor": "Rick Riordan",
     "resumo": "Um jovem semideus descobre seu destino em uma missão cheia de perigos mitológicos",
     "preco": 43.98,
-    "capa": "public/imagem/ladrao-de-raios.jpg",
+    "capa": "/imagem/ladrao-de-raios.jpg",
     "categoria": "Aventura",
     "detalhes": "Editora:  Intrínseca, Data da publicação : 3 janeiro 2011, Número de páginas  : 400 páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
@@ -35,7 +35,7 @@ const produtos = [
     "autor": "Holly Black",
     "resumo": "Em meio às intrigas do reino das fadas, Jude luta por poder e sobrevivência",
     "preco": 55.95,
-    "capa": "public/imagem/principe-cruel.jpg",
+    "capa": "/imagem/principe-cruel.jpg",
     "categoria": "Romance",
     "detalhes": "Editora:  Galera, Data da publicação : 10 setembro 2018, Número de páginas  : 322  páginas, Idade de leitura  : 16 anos e acima"
   },
@@ -45,7 +45,7 @@ const produtos = [
     "autor": "Rick Riordan",
     "resumo": "Percy embarca em uma aventura épica para salvar o Acampamento Meio-Sangue.",
     "preco": 40.99,
-    "capa": "public/imagem/o-mar-de-monstros.jpg",
+    "capa": "/imagem/o-mar-de-monstros.jpg",
     "categoria": "Aventura",
     "detalhes": "Editora:  Intrínseca, Data da publicação : 17 abril 2009, Número de páginas  : 304  páginas, Idade de leitura  : Idade sugerida pelo cliente: 12 anos e acima"
   },
@@ -55,7 +55,7 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": " Katniss volta à arena em uma disputa ainda mais perigosa e cheia de revolta.",
     "preco": 20.99,
-    "capa": "public/imagem/em _chamas.jpg",
+    "capa": "/imagem/em _chamas.jpg",
     "categoria": "Distopia",
     "detalhes": "Editora:  Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 416 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -65,7 +65,7 @@ const produtos = [
     "autor": "Matt Haig",
     "resumo": "Entre vidas alternativas e escolhas do passado, Nora descobre o verdadeiro valor de viver",
     "preco": 70.54,
-    "capa": "public/imagem/biblioteca_da_meia-noite.jpg",
+    "capa": "/imagem/biblioteca_da_meia-noite.jpg",
     "categoria": "Fantasia",
     "detalhes": "Editora:  Bertrand Brasil, Data da publicação : 27 setembro 2021, Número de páginas  : 308 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -75,7 +75,7 @@ const produtos = [
     "autor": "Raphael Monte",
     "resumo": "Sete histórias sombrias revelam os pecados escondidos em um misterioso vilarejo.",
     "preco": 80.99,
-    "capa": "public/imagem/o-vilarejo.jpg",
+    "capa": "/imagem/o-vilarejo.jpg",
     "categoria": "Suspense/Terror",
     "detalhes": "Editora:  Suma, Data da publicação : 14 agosto 2015, Número de páginas  : 96 páginas, Idade de leitura  : Idade sugerida pelo cliente: 18 anos e acima"
   },
@@ -85,7 +85,7 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Katniss lidera a revolução final contra o regime opressor de Panem.",
     "preco": 21.90,
-    "capa": "public/imagem/esperanca.png",
+    "capa": "/imagem/esperanca.png",
     "categoria": "Distopia",
     "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 fevereiro 2012, Número de páginas  : 424 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -95,7 +95,7 @@ const produtos = [
     "autor": "Karl Max e Friedaich Engels",
     "resumo": "Obra política que defende a luta de classes e a união dos trabalhadores contra o capitalismo.",
     "preco": 0.00,
-    "capa": "public/imagem/manifesto.png",
+    "capa": "/imagem/manifesto.png",
     "categoria": "História",
     "detalhes": "Editora: Paz & Terra, Data da publicação : 22 novembro 2021, Número de páginas  : 80 páginas, Idade de leitura  : Idade sugerida pelo cliente: 14 anos e acima"
   },
@@ -105,7 +105,7 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "O jovem Coriolanus Snow tenta conquistar poder ao orientar uma tributo nos primeiros Jogos Vorazes.",
     "preco": 65.90,
-    "capa": "public/imagem/cantiga.png",
+    "capa": "/imagem/cantiga.png",
     "categoria": "Distopia",
     "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 15 junho 2020, Número de páginas  : 575 páginas, Idade de leitura  : 14 anos e acima"
   },
@@ -115,7 +115,7 @@ const produtos = [
     "autor": "Suzanne Collins",
     "resumo": "Durante uma edição especial dos Jogos Vorazes, jovens precisam lutar pela sobrevivência em meio à opressão da Capital.",
     "preco": 70.90,
-    "capa": "public/imagem/amanhecer.png",
+    "capa": "/imagem/amanhecer.png",
     "categoria": "Distopia",
     "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação : 18 março 2025, Número de páginas  : 452 páginas, Idade de leitura  : 14 anos e acima"
   },
@@ -125,7 +125,7 @@ const produtos = [
     "autor": "Holly Black",
     "resumo": "Jude precisa enfrentar traições e disputas políticas no reino das fadas para manter seu poder e sobreviver.",
     "preco": 42.76,
-    "capa": "public/imagem/rei_perverso.png",
+    "capa": "/imagem/rei_perverso.png",
     "categoria": "Romance",
     "detalhes": "Editora: Galera, Data da publicação : 18 maio 2020, Número de páginas  : 352 páginas, Idade de leitura  : 14 anos e acima"
   },
@@ -135,7 +135,7 @@ const produtos = [
     "autor": "Stephen King",
     "resumo": "Um grupo de amigos enfrenta uma entidade monstruosa que assume a forma dos maiores medos das pessoas na cidade de Derry.",
     "preco": 106.90,
-    "capa": "public/imagem/itacoisa.png",
+    "capa": "/imagem/itacoisa.png",
     "categoria": "Suspense/Terror",
     "detalhes": "Editora: Suma, Data da publicação : 4 agosto 2014, Número de páginas  : 1645 páginas, Idade de leitura  : 17 anos e acima"
   },
@@ -145,7 +145,7 @@ const produtos = [
     "autor": " Veronica Roth ",
     "resumo": "Em uma sociedade dividida por facções, Tris descobre que é divergente e ameaça o sistema criado para controlar a população.",
     "preco": 37.90,
-    "capa": "public/imagem/divergente.png",
+    "capa": "/imagem/divergente.png",
     "categoria": "Ficção Científica",
     "detalhes": "Editora: MOLINO, Data da publicação : 13 junho 2013, Número de páginas  : 388 páginas, Idade de leitura  : 14 anos e acima"
   },
@@ -155,7 +155,7 @@ const produtos = [
     "autor": " Clarice Lispector ",
     "resumo": "A história acompanha Macabéa, uma jovem nordestina simples e invisível que tenta sobreviver no Rio de Janeiro.",
     "preco": 32.90,
-    "capa": "public/imagem/horaestrela.png",
+    "capa": "/imagem/horaestrela.png",
     "categoria": "Clássicos",
     "detalhes": "Editora: Rocco, Data da publicação : 4 agosto 1998, Número de páginas  : 88 páginas, Idade de leitura  : 14 anos e acima"
   }
@@ -166,7 +166,7 @@ const produtos = [
     "autor": " Rick Riordan ",
     "resumo": "Percy Jackson embarca em uma missão perigosa para salvar a deusa Ártemis e impedir que uma antiga profecia destrua o Olimpo.",
     "preco": 40.90,
-    "capa": "public/imagem/maldicao.png",
+    "capa": "/imagem/maldicao.png",
     "categoria": "Aventura",
     "detalhes": "Editora: Intrínseca, Data da publicação : 13 de outubro de 2009, Número de páginas  : 336 páginas, Idade de leitura  : 12 anos e acima"
   }
@@ -177,7 +177,7 @@ const produtos = [
     "autor": " George Orwell ",
     "resumo": "Animais de uma fazenda se rebelam contra os humanos, mas acabam criando um governo tão opressor quanto o anterior",
     "preco": 20.30,
-    "capa": "public/imagem/bichos.png",
+    "capa": "/imagem/bichos.png",
     "categoria": "Distopia",
     "detalhes": "Editora: Companhia das Letras, Data da publicação : 10 janeiro 2007, Número de páginas  : 152 páginas, Idade de leitura  : 15 anos e acima"
   }
@@ -188,7 +188,7 @@ const produtos = [
     "autor": " Kiyosaki Robert  ",
     "resumo": "O autor compara os ensinamentos financeiros de dois “pais” para mostrar a importância da educação financeira e dos investimentos.",
     "preco": 67.67,
-    "capa": "public/imagem/pairico.png",
+    "capa": "/imagem/pairico.png",
     "categoria": "AutoAjuda",
     "detalhes": "Editora: Alta Books, Data da publicação : 26 julho 2017, Número de páginas  : 336 páginas, Idade de leitura  : 15 anos e acima"
   }
@@ -199,59 +199,60 @@ const produtos = [
     "autor": "  Jenna Evans Welch ",
     "resumo": " Lina viaja para a Itália para realizar o último desejo da mãe e acaba descobrindo segredos do passado enquanto vive um romance inesquecível.",
     "preco": 34.92,
-    "capa": "public/imagem/gelato.png",
+    "capa": "/imagem/gelato.png",
     "categoria": "Romance",
     "detalhes": "Editora: Intrínseca, Data da publicação : 21 julho 2017, Número de páginas  : 320 páginas, Idade de leitura  : 12 anos e acima" 
   }
   ,
   {
-    "id": 21,
-    "titulo": "Uma mulher no escuro",
-    "autor": "Raphael Monte",
-    "resumo": "Uma jovem enfrenta mistérios e perigos enquanto tenta sobreviver em meio à escuridão e ao desconhecido.",
-    "preco": 57.63,
-    "capa": "public/imagem/uma-mulher-no-escuro.jpg",
-    "categoria": "Suspense/Terror"
-  }
- ,
- {
+  "id": 21,
+  "titulo": "Uma mulher no escuro",
+  "autor": "Raphael Montes",
+  "resumo": "Uma jovem enfrenta mistérios e perigos enquanto tenta sobreviver em meio à escuridão e ao desconhecido.",
+  "preco": 57.63,
+  "capa": "/imagem/uma-mulher-no-escuro.jpg",
+  "categoria": "Suspense/Terror",
+  "detalhes": "Editora: Companhia das Letras, Data da publicação: 13 agosto 2019, Número de páginas: 256 páginas, Idade de leitura: 16 anos e acima"
+},
+{
   "id": 22,
-    "titulo": "Maze Runner: Correr ou Morrer",
-    "autor": "James Dashner",
-    "resumo": "Preso em um labirinto mortal, Thomas precisa encontrar uma saída antes que seja tarde demais.",
-    "preco": 32.14,
-    "capa": "public/imagem/maze-runner.jpg",
-    "categoria": "Distopia"
- }
- ,
- {
+  "titulo": "Maze Runner: Correr ou Morrer",
+  "autor": "James Dashner",
+  "resumo": "Preso em um labirinto mortal, Thomas precisa encontrar uma saída antes que seja tarde demais.",
+  "preco": 32.14,
+  "capa": "/imagem/maze-runner.jpg",
+  "categoria": "Distopia",
+  "detalhes": "Editora: Vergara & Riba, Data da publicação: 1 outubro 2010, Número de páginas: 426 páginas, Idade de leitura: 14 anos e acima"
+},
+{
   "id": 23,
-    "titulo": "O menino do pijama listrado",
-    "autor": "John Boyne",
-    "resumo": "Uma emocionante história de amizade e inocência durante um dos períodos mais sombrios da história.",
-    "preco": 42.00,
-    "capa": "public/imagem/o-menino-do-pijama-listrado.jpg",
-    "categoria": "Drama"
- }
-  ,
- {
+  "titulo": "O menino do pijama listrado",
+  "autor": "John Boyne",
+  "resumo": "Uma emocionante história de amizade e inocência durante um dos períodos mais sombrios da história.",
+  "preco": 42.00,
+  "capa": "/imagem/o-menino-do-pijama-listrado.jpg",
+  "categoria": "Drama",
+  "detalhes": "Editora: Seguinte, Data da publicação: 1 janeiro 2007, Número de páginas: 192 páginas, Idade de leitura: 12 anos e acima"
+},
+{
   "id": 24,
-    "titulo": "O extraordinário",
-    "autor": "R. J. Palacio",
-    "resumo": "A história de Auggie Pullman, um garoto com uma condição facial rara que enfrenta os desafios de frequentar a escola pela primeira vez.",
-    "preco": 38.41,
-    "capa": "public/imagem/extraordinario.jpg",
-    "categoria": "Drama"
- }
- ,
+  "titulo": "O extraordinário",
+  "autor": "R. J. Palacio",
+  "resumo": "A história de Auggie Pullman, um garoto com uma condição facial rara que enfrenta os desafios de frequentar a escola pela primeira vez.",
+  "preco": 38.41,
+  "capa": "/imagem/extraordinario.jpg",
+  "categoria": "Drama",
+  "detalhes": "Editora: Intrínseca, Data da publicação: 1 fevereiro 2013, Número de páginas: 320 páginas, Idade de leitura: 10 anos e acima"
+},
 {
   "id": 25,
   "titulo": "Dom Casmurro",
   "autor": "Machado de Assis",
   "resumo": "Bentinho relembra sua história de amor com Capitu e questiona a fidelidade da mulher que marcou sua vida.",
   "preco": 29.90,
-  "capa": "public/imagem/dom-casmurro.jpg",
-  "categoria": "Clássicos"
+  "capa": "/imagem/dom-casmurro.jpg",
+  "categoria": "Clássicos",
+  "detalhes": "Editora: Principis, Data da publicação: 1 janeiro 2019, Número de páginas: 208 páginas, Idade de leitura: 14 anos e acima"
 },
 {
   "id": 26,
@@ -259,8 +260,9 @@ const produtos = [
   "autor": "Raphael Montes",
   "resumo": "Quatro amigos se envolvem em um negócio sombrio que foge completamente do controle.",
   "preco": 49.90,
-  "capa": "public/imagem/jantar-secreto.jpg",
-  "categoria": "Suspense/Terror"
+  "capa": "/imagem/jantar-secreto.jpg",
+  "categoria": "Suspense/Terror",
+  "detalhes": "Editora: Companhia das Letras, Data da publicação: 14 novembro 2016, Número de páginas: 368 páginas, Idade de leitura: 18 anos e acima"
 },
 {
   "id": 27,
@@ -268,8 +270,9 @@ const produtos = [
   "autor": "Veronica Roth",
   "resumo": "Tris e seus amigos descobrem a verdade sobre o mundo além das facções.",
   "preco": 39.90,
-  "capa": "public/imagem/convergente.jpg",
-  "categoria": "Ficção Científica"
+  "capa": "/imagem/convergente.jpg",
+  "categoria": "Ficção Científica",
+  "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação: 1 janeiro 2014, Número de páginas: 526 páginas, Idade de leitura: 14 anos e acima"
 },
 {
   "id": 28,
@@ -277,8 +280,9 @@ const produtos = [
   "autor": "Veronica Roth",
   "resumo": "Após os acontecimentos de Divergente, Tris enfrenta conflitos e segredos que podem mudar tudo.",
   "preco": 39.90,
-  "capa": "public/imagem/insurgente.jpg",
-  "categoria": "Ficção Científica"
+  "capa": "/imagem/insurgente.jpg",
+  "categoria": "Ficção Científica",
+  "detalhes": "Editora: Rocco Jovens Leitores, Data da publicação: 1 janeiro 2013, Número de páginas: 512 páginas, Idade de leitura: 14 anos e acima"
 },
 {
   "id": 29,
@@ -286,17 +290,20 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry descobre que é um bruxo e inicia sua jornada em Hogwarts.",
   "preco": 44.90,
-  "capa": "public/imagem/pedra-filosofal.jpg",
-  "categoria": "Fantasia"
-},
+  "capa": "/imagem/pedra-filosofal.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2000, Número de páginas: 264 páginas, Idade de leitura: 10 anos e acima"
+}
+,
 {
   "id": 30,
   "titulo": "Harry Potter e a Câmara Secreta",
   "autor": "J. K. Rowling",
   "resumo": "Estranhos ataques acontecem em Hogwarts enquanto Harry investiga a Câmara Secreta.",
   "preco": 44.90,
-  "capa": "public/imagem/camara-secreta.jpg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/camara-secreta.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2000, Número de páginas: 252 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 31,
@@ -304,8 +311,9 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry descobre segredos sobre seu passado enquanto um perigoso fugitivo escapa de Azkaban.",
   "preco": 44.90,
-  "capa": "public/imagem/prisioneiro-de-azkaban.jpeg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/prisioneiro-de-azkaban.jpeg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2000, Número de páginas: 348 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 32,
@@ -313,8 +321,9 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry participa do Torneio Tribruxo e enfrenta desafios mortais.",
   "preco": 44.90,
-  "capa": "public/imagem/calice-de-fogo.jpg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/calice-de-fogo.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2001, Número de páginas: 584 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 33,
@@ -322,8 +331,9 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry lidera a resistência contra as forças que tentam negar o retorno de Voldemort.",
   "preco": 44.90,
-  "capa": "public/imagem/ordem-da-fenix.jpg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/ordem-da-fenix.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2003, Número de páginas: 704 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 34,
@@ -331,8 +341,9 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry descobre informações importantes sobre Voldemort enquanto se prepara para a batalha final.",
   "preco": 44.90,
-  "capa": "public/imagem/enigma-do-principe.jpg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/enigma-do-principe.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2005, Número de páginas: 512 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 35,
@@ -340,8 +351,9 @@ const produtos = [
   "autor": "J. K. Rowling",
   "resumo": "Harry, Rony e Hermione partem em uma missão decisiva para derrotar Voldemort.",
   "preco": 44.90,
-  "capa": "public/imagem/reliquias-da-morte.jpg",
-  "categoria": "Fantasia"
+  "capa": "/imagem/reliquias-da-morte.jpg",
+  "categoria": "Fantasia",
+  "detalhes": "Editora: Rocco, Data da publicação: 1 janeiro 2007, Número de páginas: 592 páginas, Idade de leitura: 10 anos e acima"
 },
 {
   "id": 36,
@@ -349,8 +361,9 @@ const produtos = [
   "autor": "James Dashner",
   "resumo": "Thomas e os clareanos enfrentam um deserto mortal repleto de novos desafios.",
   "preco": 34.90,
-  "capa": "public/imagem/prova-de-fogo.jpg",
-  "categoria": "Distopia"
+  "capa": "/imagem/prova-de-fogo.jpg",
+  "categoria": "Distopia",
+  "detalhes": "Editora: Vergara & Riba, Data da publicação: 1 outubro 2011, Número de páginas: 400 páginas, Idade de leitura: 14 anos e acima"
 },
 {
   "id": 37,
@@ -358,8 +371,9 @@ const produtos = [
   "autor": "James Dashner",
   "resumo": "A batalha final contra a organização C.R.U.E.L. coloca o futuro da humanidade em jogo.",
   "preco": 34.90,
-  "capa": "public/imagem/a-cura-mortal.jpg",
-  "categoria": "Distopia"
+  "capa": "/imagem/a-cura-mortal.jpg",
+  "categoria": "Distopia",
+  "detalhes": "Editora: Vergara & Riba, Data da publicação: 1 outubro 2013, Número de páginas: 344 páginas, Idade de leitura: 14 anos e acima"
 },
 {
   "id": 38,
@@ -367,8 +381,9 @@ const produtos = [
   "autor": "Elle Kennedy",
   "resumo": "Um acordo inesperado aproxima Hannah e Garrett de uma forma que nenhum dos dois imaginava.",
   "preco": 39.90,
-  "capa": "public/imagem/o-acordo-nova-edicao.jpg",
-  "categoria": "Romance"
+  "capa": "/imagem/o-acordo-nova-edicao.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 14 setembro 2021, Número de páginas: 360 páginas, Idade de leitura: 16 anos e acima"
 },
 {
   "id": 39,
@@ -376,8 +391,9 @@ const produtos = [
   "autor": "Elle Kennedy",
   "resumo": "Logan tenta conquistar a garota certa enquanto lida com os próprios conflitos.",
   "preco": 39.90,
-  "capa": "public/imagem/o-erro-nova-edicao.jpg",
-  "categoria": "Romance"
+  "capa": "/imagem/o-erro-nova-edicao.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 14 setembro 2021, Número de páginas: 336 páginas, Idade de leitura: 16 anos e acima"
 },
 {
   "id": 40,
@@ -385,8 +401,9 @@ const produtos = [
   "autor": "Elle Kennedy",
   "resumo": "Dean e Allie vivem um relacionamento cheio de química, humor e desafios.",
   "preco": 39.90,
-  "capa": "public/imagem/o-jogo.jpg",
-  "categoria": "Romance"
+  "capa": "/imagem/o-jogo.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 14 setembro 2021, Número de páginas: 344 páginas, Idade de leitura: 16 anos e acima"
 },
 {
   "id": 41,
@@ -394,38 +411,39 @@ const produtos = [
   "autor": "Elle Kennedy",
   "resumo": "Os casais da série retornam para mostrar como suas histórias continuaram após a faculdade.",
   "preco": 39.90,
-  "capa": "public/imagem/o-legado-nova-edicao.jpg",
-  "categoria": "Romance"
-}
-,
+  "capa": "/imagem/o-legado-nova-edicao.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 7 março 2023, Número de páginas: 320 páginas, Idade de leitura: 16 anos e acima"
+},
 {
   "id": 42,
   "titulo": "A Conquista",
   "autor": "Elle Kennedy",
   "resumo": "Um romance universitário envolvente que mistura rivalidade, amizade e paixão inesperada.",
   "preco": 39.90,
-  "capa": "public/imagem/a-conquista.jpg",
-  "categoria": "Romance"
-}
-,
+  "capa": "/imagem/a-conquista.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 14 setembro 2021, Número de páginas: 328 páginas, Idade de leitura: 16 anos e acima"
+},
 {
   "id": 43,
   "titulo": "Vermelho, Branco e Sangue Azul",
   "autor": "Casey McQuiston",
   "resumo": "O filho da presidente dos Estados Unidos e um príncipe britânico transformam uma rivalidade pública em algo muito maior.",
   "preco": 44.90,
-  "capa": "public/imagem/vermelho-branco-e-sangue-azul.jpg",
-  "categoria": "Romance"
-}
-,
+  "capa": "/imagem/vermelho-branco-e-sangue-azul.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Seguinte, Data da publicação: 16 setembro 2019, Número de páginas: 392 páginas, Idade de leitura: 16 anos e acima"
+},
 {
   "id": 44,
   "titulo": "Os sete maridos de Evelyn Hugo",
   "autor": "Taylor Jenkins Reid",
   "resumo": "Uma estrela de Hollywood revela os segredos de sua vida, carreira e de seus sete casamentos.",
   "preco": 49.90,
-  "capa": "public/imagem/os-sete-maridos.jpg",
-  "categoria": "Romance"
+  "capa": "/imagem/os-sete-maridos.jpg",
+  "categoria": "Romance",
+  "detalhes": "Editora: Paralela, Data da publicação: 21 outubro 2019, Número de páginas: 360 páginas, Idade de leitura: 16 anos e acima"
 }
 ]
 
