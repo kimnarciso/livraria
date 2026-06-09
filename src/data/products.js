@@ -453,7 +453,7 @@ export { produtos as listaProdutos }
       {
     "id": 1,
     "nome": "Suzzane Collins ",
-    "imagem": "  public/imagem/suzanne.jpg ",
+    "imagem": "  /imagem/suzanne.jpg ",
     "resumo": " Suzanne Collins é uma escritora norte-americana conhecida mundialmente pela série Jogos Vorazes, uma das distopias mais populares da literatura jovem. Antes de se tornar romancista, trabalhou escrevendo roteiros para programas infantis de televisão. Seu maior sucesso veio com a história de Katniss Everdeen, que mistura crítica social, política e sobrevivência em uma sociedade controlada pela Capital. Além da trilogia original, Collins expandiu o universo com livros como A Cantiga dos Pássaros e das Serpentes e Amanhecer na Colheita. Suas obras são conhecidas pela tensão psicológica, personagens marcantes e críticas à desigualdade social.",
     "link": "https://www.suzannecollinsbooks.com"
    
@@ -461,14 +461,14 @@ export { produtos as listaProdutos }
    {
     "id": 2,
     "nome": "Rick Riordan ",
-    "imagem": " public/imagem/rick.jpg",
+    "imagem": " /imagem/rick.jpg",
     "resumo": "Rick Riordan é um escritor norte-americano famoso por transformar a mitologia grega em aventuras modernas cheias de humor e ação. Ex-professor de história, Riordan criou a série Percy Jackson e os Olimpianos para incentivar o filho a gostar de leitura. O sucesso foi enorme, levando à criação de diversos universos inspirados em mitologias diferentes, como romana, egípcia e nórdica. Entre suas obras mais conhecidas estão O Ladrão de Raios, A Maldição do Titã e Os Heróis do Olimpo. Seus livros conquistaram milhões de leitores jovens ao combinar aventura, fantasia e referências mitológicas de forma divertida.",
     "link": "https://rickriordan.com"
   },
      {
     "id": 3,
     "nome": "Holly Black ",
-    "imagem": "public/imagem/holly.jpg  ",
+    "imagem": "/imagem/holly.jpg  ",
     "resumo": " Holly Black é uma escritora norte-americana reconhecida principalmente por seus livros de fantasia envolvendo fadas, magia e intrigas políticas. Seu grande destaque é a série O Povo do Ar, que inclui títulos como O Príncipe Cruel e O Rei Perverso. Suas histórias costumam apresentar protagonistas inteligentes, romances intensos e disputas pelo poder em mundos sombrios e fascinantes. Holly Black também escreveu outras obras populares de fantasia urbana e juvenil, tornando-se uma das autoras mais influentes do gênero na atualidade.",
     "link": "https://www.wook.pt/autor/holly-black/22673?srsltid=AfmBOoriwoR5TzwYCbQ12DGtIMABbxBSXlbfYZS11ZUuE2RiKhg-fgJv"
    
@@ -483,35 +483,35 @@ export { produtos as listaProdutos }
     "id": 3,
     "titulo": "Percy Jackson: O ladrão de raios",
     "autor": "Rick Riordan",
-    "capa": "public/imagem/ladrao-de-raios.jpg",
+    "capa": "/imagem/ladrao-de-raios.jpg",
     "link": "/percy"
   },
    {
     "id": 1,
     "titulo": "Jogos Vorazes",
     "autor": "Suzanne Collins",
-    "capa": "public/imagem/capa-jogos_vorazes.jpg",
+    "capa": "/imagem/capa-jogos_vorazes.jpg",
     "link": "/jogosvorazes"
   },
   {
     "id": 19,
     "titulo": "Pai rico Pai pobre ",
     "autor": " Kiyosaki Robert  ",
-    "capa": "public/imagem/pairico.png",
+    "capa": "/imagem/pairico.png",
     "link": "/pairico"
   },
   {
     "id": 2,
     "titulo": " A Rainha Vermelha",
     "autor": "Victoria Aveyard ",
-    "capa": "public/imagem/a-rainha_vermelha.jpg",
+    "capa": "/imagem/a-rainha_vermelha.jpg",
     "link": "/rainhavermelha"
   },
   {
     "id": 10,
     "titulo": "O Manifesto Comunista",
     "autor": "Karl Max e Friedaich Engels",
-    "capa": "public/imagem/manifesto.png",
+    "capa": "/imagem/manifesto.png",
     "link": "/manifesto"
   },
 
@@ -524,42 +524,42 @@ export { produtos as listaProdutos }
     "id": 1,
      "nome": "Clarice Lispector",
     "resumo": "Clarice Lispector foi uma das escritoras mais importantes da literatura brasileira. Nascida na Ucrânia e criada no Brasil, ficou conhecida por sua escrita introspectiva, emocional e filosófica, explorando profundamente os sentimentos humanos e a existência. Suas obras marcaram a literatura moderna brasileira pela linguagem sensível e inovadora.",
-    "imagem": "public/imagem/clarice.png",
+    "imagem": "/imagem/clarice.png",
     "link": "https://site.claricelispector.ims.com.br"
   },
    {
     "id": 2,
      "nome": "Raphael Montes",
     "resumo": "Raphael Montes é um escritor brasileiro conhecido principalmente por suas obras de suspense, terror e investigação criminal. Nascido no Rio de Janeiro, ganhou destaque ainda jovem ao lançar livros com histórias sombrias e cheias de reviravoltas psicológicas. Seu estilo mistura violência, mistério e crítica social, tornando-o um dos autores contemporâneos mais populares do gênero no Brasil.",
-    "imagem": "public/imagem/raphael.webp",
+    "imagem": "/imagem/raphael.webp",
     "link": "https://www.raphaelmontes.com.br"
   },
   {
     "id": 3,
      "nome": "Stephen King",
     "resumo": "Stephen King é um dos escritores de terror mais famosos do mundo. Nascido nos Estados Unidos, construiu uma carreira gigantesca escrevendo histórias de suspense, horror psicológico e fantasia sombria. Suas obras frequentemente exploram medo, traumas e o lado obscuro da mente humana. Muitos de seus livros foram adaptados para o cinema e televisão.",
-    "imagem": "public/imagem/stephen.jpg",
+    "imagem": "/imagem/stephen.jpg",
     "link": "https://stephenking-com.translate.goog/the-author/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc"
   },
    {
     "id": 4,
      "nome": "George Orwell",
     "resumo": "George Orwell foi um escritor e jornalista britânico famoso por suas críticas políticas e sociais. Suas obras discutem autoritarismo, manipulação e desigualdade, tornando-se referências mundiais da literatura distópica. Orwell usava suas histórias para alertar sobre os perigos do controle excessivo do Estado e da perda da liberdade individual.",
-    "imagem": "public/imagem/george.jpg",
+    "imagem": "/imagem/george.jpg",
     "link": "https://www.casadosaber.com.br/autores/george-orwell"
   },
    {
     "id": 5,
      "nome": "Veronica Roth",
     "resumo": "Veronica Roth é uma escritora norte-americana conhecida mundialmente pela série distópica Divergente. Ela começou a escrever ainda jovem e alcançou enorme sucesso com histórias voltadas ao público jovem adulto, misturando ação, romance e crítica social. Suas obras abordam identidade, escolhas e liberdade em sociedades controladas.",
-    "imagem": "public/imagem/veronica.jpeg",
+    "imagem": "/imagem/veronica.jpeg",
     "link": "https://veronicarothbooks.com" 
   },
   {
     "id": 5,
      "nome": "Victoria Aveyard",
     "resumo": "Victoria Aveyard é uma escritora norte-americana conhecida principalmente por suas obras de fantasia e distopia voltadas ao público jovem adulto. Ela ganhou fama mundial com a série A Rainha Vermelha, que mistura realeza, poderes sobrenaturais, desigualdade social e disputas políticas. Antes de se tornar escritora, estudou roteiro e cinema, o que influencia bastante seu estilo dinâmico e cheio de reviravoltas. Seus livros costumam explorar temas como poder, traição, revolução e identidade.",
-    "imagem": "public/imagem/victoria.webp",
+    "imagem": "/imagem/victoria.webp",
     "link": "https://videeditorial.com.br/index.php?route=product/author&author_id=7487"
   },
   
