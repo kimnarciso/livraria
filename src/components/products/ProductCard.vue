@@ -27,7 +27,7 @@ const mostrarDetalhes = ref(false)
     <p class="preco">{{ formataPreco(preco) }}</p>
     
      
-      <ButtonChild  @clique="mostrarDetalhes = true">
+      <ButtonChild class="button-" @clique="mostrarDetalhes = true">
       Ver detalhes
     </ButtonChild>
       <div class="modal-overlay" v-if="mostrarDetalhes" @clique="mostrarDetalhes = false" >
@@ -41,7 +41,7 @@ const mostrarDetalhes = ref(false)
       </ButtonChild>
             </div>
         </div>
-        <ButtonChild @clique="addCarrinho(props.id)">Adicionar ao carrinho</ButtonChild>
+        <ButtonChild class="button-" @clique="addCarrinho(props.id)">Adicionar ao carrinho</ButtonChild>
     </div>
         
    
@@ -51,6 +51,10 @@ const mostrarDetalhes = ref(false)
 </template>
 
 <style scoped>
+.button-{
+  margin: 3px;
+  align-items: center;
+}
 .produto-card {
   border: 2px solid rgba(123, 81, 201, 0.2);
   padding: 1.25rem;
